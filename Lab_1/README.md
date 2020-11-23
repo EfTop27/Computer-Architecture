@@ -90,3 +90,28 @@
 * ```[system] (line 11)```  
 ```mem_ranges=0:2147483648 (line 21)```  
 Το μέγεθος της μνήμης είναι 2GB = 2147483648 bytes.
+
+**Ερώτημα 2b**
+Από το αρχείο stats.txt παρατηρούμε:
+
+```sim_insts    5028    # Number of instructions simulated (line 10)```  
+```system.cpu_cluster.cpus.committedInsts    5028    # Number of instructions committed (line 14)```
+
+Ο αριθμός των committed εντολών είναι 5028.
+
+**Ερώτημα 2c**
+Από το αρχείο stats.txt παρατηρούμε:
+
+```system.cpu_cluster.l2.overall_accesses::total    479    # number of overall (read+write) accesses (line 493)```
+
+Η L2 cache προσπελάστηκε 479 φορές.
+
+Εναλλακτικά για να βρούμε πόσες φορές προσπελάστηκε η L2 βρίσκουμε πόσες φορές έγινε miss η icache και η dcache του L1 επιπέδου. Αυτή η πληροφορία παρέχεται από τον MSHR(miss status hold register).
+
+Από το αρχείο stats.txt παρατηρούμε:
+
+```system.cpu_cluster.cpus.icache.demand_mshr_misses::total    332    # number of demand (read+write) MSHR misses```  
+```system.cpu_cluster.cpus.dcache.demand_mshr_misses::total    147    # number of demand (read+write) MSHR misses```
+
+Το άθροισμα των πσραπάνω είναι 332+147=479 όπου είναι ο αριθμός των l2 accesses.
+
