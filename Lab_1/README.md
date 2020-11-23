@@ -8,7 +8,7 @@
 
 ### Ερώτημα 1
 Στο αρχείο starter_se.py παρατηρούμε τις εξής παραμέτρους:
-* parser.add_argument("--cpu", type=str, choices=list(cpu_types.keys()), default="atomic", help="CPU model to use")  
+* ```parser.add_argument("--cpu", type=str, choices=list(cpu_types.keys()), default="atomic", help="CPU model to use")```  
   Ορίζεται ο τύπος του cpu. Ο default τύπος είναι "atomic". Αλλά στο παράδειγμα εκτέλεσης του hello ορίσαμε "minor" σαν τύπο cpu.
 
 * parser.add_argument("--cpu-freq", type=str, default="4GHz")  
