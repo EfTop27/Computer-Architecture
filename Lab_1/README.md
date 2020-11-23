@@ -115,3 +115,38 @@
 
 Το άθροισμα των πσραπάνω είναι 332+147=479 όπου είναι ο αριθμός των l2 accesses.
 
+### Ερώτημα 3
+Πληροφορίες για τα διαφορετικά μοντέλα in-order CPUs που χρησιμοποιεί ο gem5:
+
+Το SimpleCPU είναι ένα in-order μοντέλο το οποίο χρησιμοποιείται σε περιπτώσεις όπου ένα detailed model δεν είναι απαραίτητο. Έχει χωριστεί σε 3 κλάσεις: BaseSimpleCPU, AtomicSimpleCPU, TimingSimpleCPU.
+
+Το BaseSimpleCPU διατηρεί την αρχιτεκτονική μεταξύ των SimpleCPU models. Επίσης ορίζει συναρτήσεις για να ελέγχουν εάν υπάρχουν interrupts και να δημιουργούν fetch request, διαχειρίζεται το pre-execute setup και post-execute actions και αυξάνει τον PC για την επόμενη εντολή. Δεν μπορεί να λειτουργήσει μόνο του. Πρέπει να χρησιμοποιηθεί μια από τις κλάσεις AtomicSimpleCPU ή TimingSimpleCPU οι οποίες το κληρονομούν.
+
+To AtomicSimpleCPU χρησιμοποιεί atomic memory accesses. Χρησιμοποιεί τα latency estimates από τα atomic accesses για να κάνει εκτίμηση του συνολικού cache access time. Χρησιμοποιείται για συναρτήσεις για να κάνει read and write στην μνήμη, για να δημιουργούν το tick, το οποίο καθορίζει τι συμβαίνει σε κάθε CPU cycle. Επίσης καθορίζει το port που χρησιμοποιείται για να συνδεθεί στην μνήμη και συνδέει το CPU στην cache.
+
+Το TimingSimpleCPU χρησιμοποιεί timing memory accesses. Σταματάει (stalls) στα cache accesses και περιμένει το σύστημα μνήμης να απαντήσει για να προχωρήσει. Ορίζει τις ίδιες συναρτήσεις με το AtomicSimpleCPU, καθορίζει το port που χρησιμοποιείται για να συνδεθεί στην μνήμη και συνδέει το CPU στην cache. Επίσης ορίζει τις απαραίτητες συναρτήσεις για να διαχειρίζονται τα responses από την μνήμη.
+
+Το Minor είναι ένα in-order processor model με ένα καθορισμένο pipeline αλλά με διαμορφώσιμες δομές δεδομένων και τρόπους execute. Είναι προορισμένο για χρήση σε processors με strict in-order execution behaviour και επιτρέπει το visualisation την θέση ενός instruction στο pipeline. Περιλαμβάνει data και instruction interfaces για την σύνδεση σε σύστημα cache.
+
+Το HPI πρόκειται για ένα αντιπροσωπευτικό in-order CPU μοντέλο. Το pipeline χρησιμοποιεί το ίδιο μοντέλο με το MinorCPU. Μια σημαντική λειτουργία του Memory Management Unit (MMU) είναι το σύστημα να τρέχει multiple tasks σαν ανεξάρτητα προγράμματα τα οποία τρέχουν στο δικό τους private virtual memory space.
+
+Το πρόγραμμα το οποίο υλοποιήθηκε σε C φαινεται παρακάτω:
+<pre>
+#include <stdio.h>
+
+int main(){
+	int mul;
+
+	mul = 1;
+
+	for(int i=1; i<=10; i++){  //Multiplies i with mul in for loop
+		mul = i * mul;
+	}
+
+	printf("Result of multiplication is: %d\n", mul);
+
+	return 0;
+}
+</pre>
+
+**Ερώτημα 3a**
