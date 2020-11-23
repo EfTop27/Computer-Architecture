@@ -194,7 +194,8 @@ sim_ticks               40536000          # Number of ticks simulated
 Βλέπουμε στο se.py ότι οι επιλογές για τις παραμέτρους γίνονται από το αρχείο common/options.py.  
 Σαν default --mem-type έχουμε DDR3_1600_8x8 και σαν default --cpu-clock έχουμε 2GHz.
 
-Μειώνουμε την συχνότητα στα 10MHz (clock 100000).
+Μειώνουμε την συχνότητα στα 10MHz (clock 100000).  
+Τα αποτελέσματα τα οποία προκύπτουν από το αρχείο stats.txt φαίνονται παρακάτω:
 
 MinorCPU:
 <pre>
@@ -228,4 +229,44 @@ sim_ticks             308900000000         # Number of ticks simulated
 
 Μειώσαμε το clock και για το MinorCPU βλέπουμε αύξηση των ticks σε 173410000000 και του χρόνου σε 0.173410 ενώ για το TimingSimpleCPU βλέπουμε αύξηση των ticks σε 308900000000 και του χρόνου σε 0.308900. Η αύξηση των ticks και του χρόνου είναι αναμενόμενη αφού μειώσαμε το clock του cpu.
 
-Στη συνέχεια αλλάζουμε τον τύπου μνήμης σε LPDDR2_S4_1066_1x32.
+Στη συνέχεια αλλάζουμε τον τύπου μνήμης σε LPDDR2_S4_1066_1x32.  
+Τα αποτελέσματα τα οποία προκύπτουν από το αρχείο stats.txt φαίνονται παρακάτω:
+
+MinorCPU:
+<pre>
+final_tick            173410000000         # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+host_inst_rate        15663                # Simulator instruction rate (inst/s)
+host_mem_usage        712120               # Number of bytes of host memory used
+host_op_rate          17848                # Simulator op (including micro ops) rate (op/s)
+host_seconds          0.64                 # Real time elapsed on the host
+host_tick_rate        270010836962         # Simulator tick rate (ticks/s)
+sim_freq              1000000000000        # Frequency of simulated ticks
+sim_insts             10056                # Number of instructions simulated
+sim_ops               11462                # Number of ops (including micro ops) simulated
+sim_seconds           0.173410             # Number of seconds simulated
+sim_ticks             173410000000         # Number of ticks simulated
+</pre>
+
+TimingSimpleCPU:
+<pre>
+final_tick            308900000000         # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+host_inst_rate        11584                # Simulator instruction rate (inst/s)
+host_mem_usage        710072               # Number of bytes of host memory used
+host_op_rate          13151                # Simulator op (including micro ops) rate (op/s)
+host_seconds          0.86                 # Real time elapsed on the host
+host_tick_rate        357758125673         # Simulator tick rate (ticks/s)
+sim_freq              1000000000000        # Frequency of simulated ticks
+sim_insts             10000                # Number of instructions simulated
+sim_ops               11355                # Number of ops (including micro ops) simulated
+sim_seconds           0.308900             # Number of seconds simulated
+sim_ticks             308900000000         # Number of ticks simulated
+</pre>
+
+Βλέπουμε αύξηση των ticks για το MinorCPU σε 42732000 και του χρόνου σε 0.000043 ενώ για το TimingSimpleCPU βλέπουμε αύξηση των ticks σε 47669000 και του χρόνου σε 0.000048.  
+Για την DDR3_1600_8x8 ισχύει: 1.6*8*(8/8) = 12.8 GBps.  
+Για την LPDDR2_S4_1066_1x32 ισχύει: 1.066*1*(32/8) = 4.3 GBps  
+Άρα η LPDDR2_S4_1066_1x32 είναι πιο αργή. Συνεπώς η αύξηση των ticks και των χρόνων είναι αναμενόμενη.
+
+**Κριτική**
+
+Ήταν ενδιαφέροντα τα όσα μάθαμε σε αυτήν την εργασία. Είδαμε από την θεωρία κάποια πράγματα πως ανταποκρόνονται στην πράξη. Συναντήσαμε κάποια προβήματα κατά την εγκατάσταση των απαραίτητων λογισμικών καθώς και στην εγκατάσταση του λειτουργικού συστήματος αλλά λύθηκαν στην συνέχεια. Με την αλλαγή των παραμέτρων συχνότητας και μνήμης κατανοήσαμε πως αυτά επηρεαζουν την απόδοση του συστήματος. Μάθαμε για το git και την γλώσσα Markdown κάτι το οποίο βρήκαμε ενδιαφέρον και χρήσιμο.
