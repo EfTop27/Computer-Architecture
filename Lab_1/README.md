@@ -1,4 +1,4 @@
-# Αρχιτεκτονική Προηγμένων Υπολογιστών Εργαστήριο 1 - Αναφορά
+## Αρχιτεκτονική Προηγμένων Υπολογιστών Εργαστήριο 1 - Αναφορά
 
 **Ομάδα 6**
 
@@ -92,6 +92,7 @@
 Το μέγεθος της μνήμης είναι 2GB = 2147483648 bytes.
 
 **Ερώτημα 2b**
+
 Από το αρχείο stats.txt παρατηρούμε:
 
 ```sim_insts    5028    # Number of instructions simulated (line 10)```  
@@ -100,6 +101,7 @@
 Ο αριθμός των committed εντολών είναι 5028.
 
 **Ερώτημα 2c**
+
 Από το αρχείο stats.txt παρατηρούμε:
 
 ```system.cpu_cluster.l2.overall_accesses::total    479    # number of overall (read+write) accesses (line 493)```
@@ -150,3 +152,45 @@ int main(){
 </pre>
 
 **Ερώτημα 3a**
+
+Παρακάτω φαίνονται τα αποτελέσματα που προκύπτουν από το αρχείο stats.txt:
+
+MinorCPU:
+<pre>
+final_tick		33965000	  # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+host_inst_rate		50329             # Simulator instruction rate (inst/s)
+host_mem_usage		712380            # Number of bytes of host memory used
+host_op_rate		57322             # Simulator op (including micro ops) rate (op/s)
+host_seconds            0.20              # Real time elapsed on the host
+host_tick_rate          169834005         # Simulator tick rate (ticks/s)
+sim_freq                1000000000000     # Frequency of simulated ticks
+sim_insts               10056             # Number of instructions simulated
+sim_ops                 11462             # Number of ops (including micro ops) simulated
+sim_seconds             0.000034          # Number of seconds simulated
+sim_ticks               33965000          # Number of ticks simulated
+</pre>
+
+TimingSimpleCPU:
+<pre>
+final_tick              40536000          # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+host_inst_rate          205238            # Simulator instruction rate (inst/s)
+host_mem_usage          710072            # Number of bytes of host memory used
+host_op_rate            232326            # Simulator op (including micro ops) rate (op/s)
+host_seconds            0.05              # Real time elapsed on the host
+host_tick_rate          828830392         # Simulator tick rate (ticks/s)
+sim_freq	        1000000000000     # Frequency of simulated ticks
+sim_insts               10000             # Number of instructions simulated
+sim_ops                 11355             # Number of ops (including micro ops) simulated
+sim_seconds             0.000041          # Number of seconds simulated
+sim_ticks               40536000          # Number of ticks simulated
+</pre>
+
+**Ερώτημα 3b**
+
+Παρατηρούμε ότι το MinorCPU έχει 33965000 (Number of ticks simulated) ενώ το TimingSimpleCPU έχει 40536000 (Number of ticks simulated). Επίσης το MinorCPU και TimingSimpleCPU έχουν 0.000034 και 0.000041 (Number of seconds simulated) αντίστοιχα. Αυτό δείχνει ότι το MinorCPU είναι πιο γρήγορο από το TimingSimpleCPU καθώς όπως αναφέρθηκε παραπάνω το TimingSimpleCPU σταματάει (stalls) στα cache accesses και περιμένει το σύστημα μνήμης να απαντήσει για να προχωρήσει. Επίσης το MinorCPU λειτοργεί με pipeline κάτι που το κάνει πιο γρήγορο.
+
+**Ερώτημα 3c**
+
+Βλέπουμε στο se.py ότι οι επιλογές για τις παραμέτρους γίνονται από το αρχείο common/options.py.  
+Σαν default --mem-type έχουμε DDR3_1600_8x8 και σαν default --cpu-clock έχουμε 2GHz.
+
