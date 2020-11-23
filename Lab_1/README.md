@@ -49,3 +49,44 @@
 
 * ```self.membus = SystemXBar()```  
    Γίνεται instantiate το memory bus του συστήματος.
+   
+### Ερώτημα 2
+
+**Ερώτημα 2a**
+
+Επαλήθευση πληροφοριών του ερωτήματος 1 από το config.ini αρχείο.
+
+* ```full_system=false (line 5)```  
+Δεν χρησιμοποιείται Full System (FS) mode.
+
+* ```[system.clk_domain] (line 42)```  
+```type=SrcClockDomain (line 43)```  
+```clock=1000 (line 44)```  
+Το clock είναι 1000 ticks άρα η συχνότητα του συστήματος είναι 1GHz. Τα ticks είναι σε picosecond άρα 1000 ticks είναι 1000*10^(-12)=10^(-9) sec. Άρα η συχνότητα είναι 1/10^(-9)=1GHz.
+* ```[system.cpu_cluster.clk_domain] (line 56)```  
+```type=SrcClockDomain (line 57)```  
+```clock=250 (line 58)```  
+Όπως παραπάνω προκύπτει ότι η συχνότητα cpu είναι 4GHz.
+* ```type=MinorCPU (line 65)```  
+Ο τύπος cpu είναι minor.
+* ```numThreads=1 (line 113)```  
+Τα threads είναι ο αριθμός των virtual cores μέσα στα physical cores. Αφού ο αριθμός είναι 1 έχουμε 1 core.
+* ```cache_line_size=64 (line 15)```  
+Μέγεθος γραμμής cache 64 bytes.
+* ```[system.voltage_domain] (line 1649)```  
+```voltage=3.3 (line 1652)```  
+Η τάση του συστήματος είναι 3.3V.
+* ```[system.cpu_cluster.voltage_domain] (line 1336)```  
+```voltage=1.2 (line 1339)```  
+Η τάση cpu έιναι 1.2V.
+* ```[system.mem_ctrls0.dram] (line 1375)```  
+```[system.mem_ctrls1.dram] (line 1505)```  
+Υπάρχουν 2 memory controllers. Κάθε memory controller αντιστοιχίζεται σε ένα memory channel άρα το σύστημα έχει 2 memory channels.
+* ```[system.mem_ctrls0.dram] (line 1375)```  
+```ranks_per_channel=2 (line 1427)```  
+```[system.mem_ctrls1.dram] (line 1505)```  
+```ranks_per_channel=2 (line 1557)```  
+Υπάρχουν 2 ranks per channel. Επειδή η μνήμη είναι DDR3_1600_8x8 εξάγονται 64 bits σε κάθε rank. Αφού έχουμε 2 ranks per channel τα memory channels έχουν 128 bit width.
+* ```[system] (line 11)```  
+```mem_ranges=0:2147483648 (line 21)```  
+Το μέγεθος της μνήμης είναι 2GB = 2147483648 bytes.
