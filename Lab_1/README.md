@@ -2,9 +2,9 @@
 
 **Ομάδα 6**
 
-**Τοπαλίδης Ευθύμης (8417)**
+**Τοπαλίδης Ευθύμης  (8417)**
 
-**Τσιαμήτας Γιώργος (8742)**
+**Τσιαμήτας Γιώργος  (8742)**
 
 ### Ερώτημα 1
 Στο αρχείο starter_se.py παρατηρούμε τις εξής παραμέτρους:
@@ -271,3 +271,15 @@ sim_ticks             308900000000         # Number of ticks simulated
 Ήταν ενδιαφέροντα τα όσα μάθαμε σε αυτήν την εργασία. Είδαμε από την θεωρία κάποια πράγματα πως ανταποκρόνονται στην πράξη. Συναντήσαμε κάποια προβλήματα κατά την εγκατάσταση των απαραίτητων λογισμικών καθώς και στην εγκατάσταση του λειτουργικού συστήματος αλλά λύθηκαν στην συνέχεια. Επίσης με την αλλαγή των παραμέτρων συχνότητας και μνήμης κατανοήσαμε πως αυτά επηρεαζουν την απόδοση του συστήματος. Μάθαμε για το git και την γλώσσα Markdown κάτι το οποίο βρήκαμε ενδιαφέρον και χρήσιμο.
 
 ### Βιβλιογραφία
+http://www.gem5.org/
+https://www.gem5.org/documentation/general_docs/building
+http://learning.gem5.org/book/index.html
+http://learning.gem5.org/book/part1/example_configs.html
+http://www.gem5.org/documentation/learning_gem5/part1/simple_config/
+http://www.m5sim.org/InOrder
+http://www.gem5.org/documentation/general_docs/cpu_models/SimpleCPU
+http://www.gem5.org/documentation/general_docs/cpu_models/minor_cpu
+https://nitish2112.github.io/post/gem5-memory-model/
+http://www.gem5.org/documentation/learning_gem5/part1/gem5_stats/
+https://www.extremetech.com/extreme/188776-how-l1-and-l2-cpu-caches-work-and-why-theyre-an-essential-part-of-modern-chips
+https://nitish2112.github.io/post/gem5-minor-cpu/
