@@ -284,5 +284,5 @@ http://www.gem5.org/documentation/general_docs/cpu_models/minor_cpu
 https://nitish2112.github.io/post/gem5-memory-model/  
 http://www.gem5.org/documentation/learning_gem5/part1/gem5_stats/  
 https://www.extremetech.com/extreme/188776-how-l1-and-l2-cpu-caches-work-and-why-theyre-an-essential-part-of-modern-chips  
-https://nitish2112.github.io/post/gem5-minor-cpu/
+https://nitish2112.github.io/post/gem5-minor-cpu/  
 https://en.wikipedia.org/wiki/Micro-operation
