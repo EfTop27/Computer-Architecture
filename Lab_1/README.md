@@ -96,8 +96,8 @@
 
 Από το αρχείο stats.txt παρατηρούμε:
 
-```sim_insts    5028    # Number of instructions simulated (line 10)```  
-```system.cpu_cluster.cpus.committedInsts    5028    # Number of instructions committed (line 14)```
+```system.cpu_cluster.cpus.committedInsts    5028    # Number of instructions committed (line 14)``` 
+```system.cpu_cluster.cpus.committedOps      5834    # Number of ops (including micro ops) committed```
 
 Ο αριθμός των committed εντολών είναι 5028.
 
