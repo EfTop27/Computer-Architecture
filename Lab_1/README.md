@@ -97,9 +97,10 @@
 Από το αρχείο stats.txt παρατηρούμε:
 
 ```system.cpu_cluster.cpus.committedInsts    5028    # Number of instructions committed (line 14)``` 
-```system.cpu_cluster.cpus.committedOps      5834    # Number of ops (including micro ops) committed```
+```system.cpu_cluster.cpus.committedOps      5834    # Number of ops (including micro ops) committed (line 15)```
 
-Ο αριθμός των committed εντολών είναι 5028.
+Ο αριθμός των committed εντολών είναι 5028 στην γραμμή 14 ενώ στην γραμμή 15 ο αριθμός των committed εντολών είναι 5834. 
+Αυτή η διαφορά οφείλεται στο γεγονός ότι κατά τα στάδια εκτέλεσης των εντολών πραγματοποιούνται και κάποια micro operations που αφορούν για παράδειγμα την αποθήκευση, μεταφορά δεδομένων σε καταχωρητές ή την αριθμητική, λογική ολίσθηση σε καταχωρητές.
 
 **Ερώτημα 2c**
 
