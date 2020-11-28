@@ -130,7 +130,7 @@ To AtomicSimpleCPU χρησιμοποιεί atomic memory accesses. Χρησιμ
 
 Το TimingSimpleCPU χρησιμοποιεί timing memory accesses. Σταματάει (stalls) στα cache accesses και περιμένει το σύστημα μνήμης να απαντήσει για να προχωρήσει (περιμένει ένα ACK σήμα για να προχωρήσει στο fetch της επόμενης εντολής). Ορίζει τις ίδιες συναρτήσεις με το AtomicSimpleCPU, καθορίζει το port που χρησιμοποιείται για να συνδεθεί στην μνήμη και συνδέει το CPU στην cache. Επίσης ορίζει τις απαραίτητες συναρτήσεις για να διαχειρίζονται τα responses από την μνήμη.
 
-Το Minor είναι ένα in-order execute processor model με ένα καθορισμένο pipeline αλλά με διαμορφώσιμες δομές δεδομένων και τρόπους execute. Σε αυτό το μοντέλο υπάρχει ένα vector από instructions και γίνεται forwarding αυτών. Χρησιμοποιεί scoreboard για το out of order issue των εντολών. Είναι προορισμένο για χρήση σε processors με strict in-order execution behaviour και επιτρέπει το visualisation την θέση ενός instruction στο pipeline. Περιλαμβάνει data και instruction interfaces για την σύνδεση σε σύστημα cache.
+Το Minor είναι ένα in-order execute processor model με ένα καθορισμένο pipeline αλλά με διαμορφώσιμες δομές δεδομένων και τρόπους execute. Σε αυτό το μοντέλο υπάρχει ένα vector από instructions και γίνεται forwarding αυτών. Χρησιμοποιεί scoreboard για το out-of-order issue των εντολών. Είναι προορισμένο για χρήση σε processors με strict in-order execution behaviour και επιτρέπει το visualisation την θέση ενός instruction στο pipeline. Περιλαμβάνει data και instruction interfaces για την σύνδεση σε σύστημα cache.
 
 Το HPI πρόκειται για ένα αντιπροσωπευτικό in-order CPU μοντέλο. Το pipeline χρησιμοποιεί το ίδιο μοντέλο με το MinorCPU. Μια σημαντική λειτουργία του Memory Management Unit (MMU) είναι το σύστημα να τρέχει multiple tasks σαν ανεξάρτητα προγράμματα τα οποία τρέχουν στο δικό τους private virtual memory space.
 
@@ -236,32 +236,32 @@ sim_ticks             308900000000         # Number of ticks simulated
 
 MinorCPU:
 <pre>
-final_tick                                   42732000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
-host_inst_rate                                  81555                       # Simulator instruction rate (inst/s)
-host_mem_usage                                 712120                       # Number of bytes of host memory used
-host_op_rate                                    92852                       # Simulator op (including micro ops) rate (op/s)
-host_seconds                                     0.12                       # Real time elapsed on the host
-host_tick_rate                              346075709                       # Simulator tick rate (ticks/s)
-sim_freq                                 1000000000000                       # Frequency of simulated ticks
-sim_insts                                       10056                       # Number of instructions simulated
-sim_ops                                         11462                       # Number of ops (including micro ops) simulated
-sim_seconds                                  0.000043                       # Number of seconds simulated
-sim_ticks                                    42732000                       # Number of ticks simulated
+final_tick            42732000             # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+host_inst_rate        81555                # Simulator instruction rate (inst/s)
+host_mem_usage        712120               # Number of bytes of host memory used
+host_op_rate          92852                # Simulator op (including micro ops) rate (op/s)
+host_seconds          0.12                 # Real time elapsed on the host
+host_tick_rate        346075709            # Simulator tick rate (ticks/s)
+sim_freq              1000000000000        # Frequency of simulated ticks
+sim_insts             10056                # Number of instructions simulated
+sim_ops               11462                # Number of ops (including micro ops) simulated
+sim_seconds           0.000043             # Number of seconds simulated
+sim_ticks             42732000             # Number of ticks simulated
 </pre>
 
 TimingSimpleCPU:
 <pre>
-final_tick                                   47669000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
-host_inst_rate                                 201000                       # Simulator instruction rate (inst/s)
-host_mem_usage                                 710072                       # Number of bytes of host memory used
-host_op_rate                                   227404                       # Simulator op (including micro ops) rate (op/s)
-host_seconds                                     0.05                       # Real time elapsed on the host
-host_tick_rate                              953404064                       # Simulator tick rate (ticks/s)
-sim_freq                                 1000000000000                       # Frequency of simulated ticks
-sim_insts                                       10000                       # Number of instructions simulated
-sim_ops                                         11355                       # Number of ops (including micro ops) simulated
-sim_seconds                                  0.000048                       # Number of seconds simulated
-sim_ticks                                    47669000                       # Number of ticks simulated
+final_tick            47669000             # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+host_inst_rate        201000               # Simulator instruction rate (inst/s)
+host_mem_usage        710072               # Number of bytes of host memory used
+host_op_rate          227404               # Simulator op (including micro ops) rate (op/s)
+host_seconds          0.05                 # Real time elapsed on the host
+host_tick_rate        953404064            # Simulator tick rate (ticks/s)
+sim_freq              1000000000000        # Frequency of simulated ticks
+sim_insts             10000                # Number of instructions simulated
+sim_ops               11355                # Number of ops (including micro ops) simulated
+sim_seconds           0.000048             # Number of seconds simulated
+sim_ticks             47669000             # Number of ticks simulated
 </pre>
 
 Βλέπουμε αύξηση των ticks για το MinorCPU σε 42732000 και του χρόνου σε 0.000043 ενώ για το TimingSimpleCPU βλέπουμε αύξηση των ticks σε 47669000 και του χρόνου σε 0.000048.  
