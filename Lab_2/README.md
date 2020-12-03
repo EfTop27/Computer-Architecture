@@ -210,11 +210,17 @@ cpu_clk_domain": {
 ```Average memory-access time = Hit time + (Miss rate * Miss penalty)```  
 Όσο μειώνεται αυτός ο αριθμός βελτιώνεται και η τιμή του cpi. Άρα η μείωση του cpi επιτυγχάνεται με μείωση του miss rate, του miss penalty  του hit time.
 
-Παρακάτω φαίνεται το διάγραμμα του cpi σε σχέση με το L1 instruction size και το L1 instruction associativity αντίστοιχα:  
+Παρακάτω φαίνονται τα διαγράμματα του cpi σε σχέση με το L1 instruction size και το L1 instruction associativity αντίστοιχα:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L1i_associativity.png" width="49%" height="49%">
 
-Παρακάτω φαίνεται το διάγραμμα του cpi σε σχέση με το L1 data size και το L1 data associativity αντίστοιχα:  
+Παρακάτω φαίνονται τα διαγράμματα του cpi σε σχέση με το L1 data size και το L1 data associativity αντίστοιχα:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L1d_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L1d_associativity.png" width="49%" height="49%">
 
-Παρακάτω φαίνεται το διάγραμμα του cpi σε σχέση με το L2 size και το L2 associativity αντίστοιχα:  
+Παρακάτω φαίνονται τα διαγράμματα του cpi σε σχέση με το L2 size και το L2 associativity αντίστοιχα:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L2_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L2_associativity.png" width="49%" height="49%">
+
+Τρέξαμε τα benchmarks για τις τιμές που φαίνονται στα διαγράμματα. Πιο συγκεκριμένα γίνεται αλλαγή των παραγόντων L1 icache size, L1 dcache size, L1 icache associativity, L1 dcache associativity, L2 cache size και L2 cache associativity. Παρατηρούμε ότι οι αλλαγές των τιμών του κάθε παράγοντα έχουν αρκετά μικρή επίδραση στην απόδοση των brnchmark και σε κάποιες περιπτώσεις δεν επηρεάζουν καθόλου την απόδοση των benchmark. Αυτό συμβαίνει επειδή αλλάζουμε κάθε τιμή ξεχωριστά. Όπως αναφέρθηκε παραπάνω η αύξηση του μεγέθους της μνήμης cache μειώνει τα capacity και conflict misses όμως αυτή η αύξηση του μεγέθους της μνήμης έχει ως αποτέλεσμα την αύξηση του access time και άρα την αύξηση του hit time. Επίσης η αύξηση του associativity βοηθάει στην μείωση των conflict misses όμως η αύξηση του associativity οδηγεί στην ανάγκη για μεγλο όγκο συνδυασμών και αυτό μπορεί να αυξήσει το hit time.
+Συνεπώς από τα παραπάνω βλέπουμε ότι χρειάζονται να γίνουν κάποιοι συνδυασμοί των παραπάνω παραγόντων ώστε να υπάρξουν καλύτερα αποτελέσματα στην απόδοση των benchmark.
+
+Παρακάτω φαίνεται το διάγραμμα του cpi σε σχέση με το cache line size:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/cache_line_size.png" width="49%" height="49%">  
