@@ -115,7 +115,7 @@ cpu clock 2GHz:
 Από τα αρχεα config.json έχουμε:
 
 Για το benchmark 401.bzip:  
-cpu clock 1GHz:
+cpu clock 1GHz:  
 <pre>
 "clk_domain": {
             "type": "SrcClockDomain",
