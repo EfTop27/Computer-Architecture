@@ -206,6 +206,15 @@ cpu_clk_domain": {
 
 
 ### Ερώτημα 2
-Γενικά για την απόδοση της μνήμης cache ισχύει ο τύπος:
-```Average memory-access time = Hit time + (Miss rate * Miss penalty)```
+Γενικά για την απόδοση της μνήμης cache ισχύει ο τύπος:  
+```Average memory-access time = Hit time + (Miss rate * Miss penalty)```  
+Όσο μειώνεται αυτός ο αριθμός βελτιώνεται και η τιμή του cpi. Άρα η μείωση του cpi επιτυγχάνεται με μείωση του miss rate, του miss penalty  του hit time.
 
+Παρακάτω φαίνεται το διάγραμμα του cpi σε σχέση με το L1 instruction size και το L1 instruction associativity αντίστοιχα:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L1i_associativity.png" width="49%" height="49%">
+
+Παρακάτω φαίνεται το διάγραμμα του cpi σε σχέση με το L1 data size και το L1 data associativity αντίστοιχα:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L1d_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L1d_associativity.png" width="49%" height="49%">
+
+Παρακάτω φαίνεται το διάγραμμα του cpi σε σχέση με το L2 size και το L2 associativity αντίστοιχα:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L2_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/L2_associativity.png" width="49%" height="49%">
