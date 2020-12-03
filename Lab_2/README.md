@@ -223,5 +223,5 @@ cpu_clk_domain": {
 Συνεπώς από τα παραπάνω βλέπουμε ότι χρειάζονται να γίνουν κάποιοι συνδυασμοί των παραπάνω παραγόντων ώστε να υπάρξουν καλύτερα αποτελέσματα στην απόδοση των benchmark.
 
 Παρακάτω φαίνεται το διάγραμμα του cpi σε σχέση με το cache line size:  
-<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/cache_line_size.png" width="80%" height="80%">  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/cache_line_size.png" width="85%" height="85%">  
 Βλέπουμε ότι η αύξηση του cache line size στα benchmarks είχε σαν αποτέλεσμα την μείωση της τιμής του cpi σε άλλες περιπτώσεις περισσότερο και σε άλλες λιγότερο. Στα benchmark 458.sjeng και 470.lbm βλέπουμε σημαντική μείωση του cpi. Επίσης στο benchmark 429.mcf παρατηρούμε ότι για 32B, 64B, 128B η τιμή του cpi είναι 1.250269, 1.109419 και 1.085983 όπου είναι μια τιμή αρκετά κοντά στο 1. Όπως αναφέρθηκε στο προηγούμενο ερώτημα η αύξηση του cache line size είναι ένας τρόπος να μειωθεί το miss rate καθώς μειώνονται τα compulsory misses. Η αύξηση του cache line size ομως γίνεται μέσα κάποια όρια γιατί όταν το μέγεθος των block είναι μεγαλύτερο μπορεί να αυξηθεί το miss penalty και το hit time. Συνήθως επιλέγονται τιμές 16-128 bytes.
