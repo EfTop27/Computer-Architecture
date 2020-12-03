@@ -87,3 +87,15 @@ system.cpu.dcache.overall_miss_rate::total     0.060971                       # 
 system.l2.overall_miss_rate::total           0.999927                       # miss rate for overall accesses (line 509)
 </pre>
 
+Παρακάτω φαίνεται το γράφημα το οποίο απεικονίζει τα παραπάνω αποτελέσματα από τα αρχεία stats.txt.  
+![image](https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/vima_1.png)
+
+Επίσης παρακάτω φαίνονται τα γραφήματα ξεχωριστά για κάθε μια από τις πληροφορίες που πρέκυψαν από τα αρχεία stats.txt.  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/vima_1_sim_sec.png" width="60%" height="60%">
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/vima_1_cpi.png" width="60%" height="60%">
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/vima_1_l1i_miss_rate.png" width="60%" height="60%">
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/vima_1_l1d_miss_rate.png" width="60%" height="60%">
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/vima_1_l2_miss_rate.png" width="60%" height="60%">
+
+Παρατηρούμε ότι τα benchmarks 458.sjeng και 470.lbm έχουν μεγαλύτερα simulation seconds και cpi σχετικά με τα άλλα benchmarks. Επίσης παρατηρούμε ότι για αυτά τα 2 benchmarks έχουμε μεγαλύτερα L2 miss rates σε σχέση με τα άλλα. Κάθε φορά που υπάρχει miss στις L1 και L2 υπάρχει και miss penalty. Η L2 cache είναι πιο αργή από την L1 cache. Άρα αφού το miss rate της L2 cache σε αυτές τις περιπτώσεις είναι μεγαλύτερο είναι αναμενόμενο να είναι μεγαλύτεροι οι χρόνοι εκτέλεσης και τα cpi.
+
