@@ -9,7 +9,6 @@
 
 ### Βήμα 1
 ### Ερώτημα 1
-
 Από το αρχείο config.ini έχουμε:
 
 L1 instruction cache:  
@@ -39,7 +38,6 @@ Cache line:
 Οι παραπάνω τιμές είναι ίδιες για τα 5 benchmarks.
 
 ### Ερώτημα 2
-
 Από τα αρχεία stats.txt των benchmark έχουμε:
 
 401.bzip:  
@@ -99,3 +97,104 @@ system.l2.overall_miss_rate::total           0.999927                       # mi
 
 Παρατηρούμε ότι τα benchmarks 458.sjeng και 470.lbm έχουν μεγαλύτερα simulation seconds και cpi σχετικά με τα άλλα benchmarks. Επίσης παρατηρούμε ότι για αυτά τα 2 benchmarks έχουμε μεγαλύτερα L2 miss rates σε σχέση με τα άλλα. Κάθε φορά που υπάρχει miss στις L1 και L2 υπάρχει και miss penalty. Η L2 cache είναι πιο αργή από την L1 cache. Άρα αφού το miss rate της L2 cache σε αυτές τις περιπτώσεις είναι μεγαλύτερο είναι αναμενόμενο να είναι μεγαλύτεροι οι χρόνοι εκτέλεσης και τα cpi.
 
+### Ερώτημα 3
+
+Από το αρχείο Options.py στο οποο ορίζονται κάποιες παράμετροι οι οποίοι περνάνε στο αρχείο se.py βλέπουμε ότι το default cpu clock είναι 2GHz οπότε τρέχουμε τα benchmarks με clock 1GHz και με το flag --cpu-clock=1GHz.
+
+Από τα αρχεία stats.txt και για όλα τα benchmarks στις αντίστοιχες γραμμές κώδικα έχουμε:  
+cpu clock 1GHz:  
+```system.clk_domain.clock                          1000                       # Clock period in ticks```  
+```system.cpu_clk_domain.clock                      1000                       # Clock period in ticks```
+
+cpu clock 2GHz:
+```system.clk_domain.clock                          1000                       # Clock period in ticks```  
+```system.cpu_clk_domain.clock                       500                       # Clock period in ticks```
+
+Αυτό που αλλάζει είναι το system.cpu_clk_domain.clock. Ενώ το system.clk_domain.clock παραμένει ίδιο. Αυτό το οποίο χρονίζεται στα 1GHz (system.clk_domain.clock) είναι το clock που έχει σχέση με τα components του συστήματος (η συχνότητα στην οποία λειτουργουν τα components του συστήματος). Αυτό το οποίο χρονίζεται στα 2GHz είναι το cpu (η συχνότητα λειτουργίας των block του cpu). Σε αυτό το συμπέρασμα βοήθησαν και οι πληροφορίες από τα αρχεία se.py, configs/common/Options.py, config.ini.
+
+Από τα αρχεα config.json έχουμε:
+
+Για το benchmark 401.bzip:  
+cpu clock 1GHz:
+<pre>
+"clk_domain": {
+            "type": "SrcClockDomain",
+            "cxx_class": "SrcClockDomain",
+            "name": "clk_domain",
+            "path": "system.clk_domain",
+            "clock": [
+                1000
+            ],
+(line 81 - line 88)
+</pre>
+
+<pre>
+"cpu_clk_domain": {
+            "type": "SrcClockDomain",
+            "cxx_class": "SrcClockDomain",
+            "name": "cpu_clk_domain",
+            "path": "system.cpu_clk_domain",
+            "clock": [
+                1000
+            ],
+(line 1424 - line 1431)
+</pre>
+
+cpu clock 2GHz:  
+<pre>
+"clk_domain": {
+            "type": "SrcClockDomain",
+            "cxx_class": "SrcClockDomain",
+            "name": "clk_domain",
+            "path": "system.clk_domain",
+            "clock": [
+                1000
+            ],
+(line 81 - line 88)
+</pre>
+
+<pre>
+cpu_clk_domain": {
+            "type": "SrcClockDomain",
+            "cxx_class": "SrcClockDomain",
+            "name": "cpu_clk_domain",
+            "path": "system.cpu_clk_domain",
+            "clock": [
+                500
+            ],
+(line 1424 - line 1431)
+</pre>
+
+Οι ίδιες πληροφορίες υπάρχουν και για τα άλλα benchmarks στις αντίστοιχες γραμμές κώδικα.  
+Από τα παραπάνω επαληθεύονται και από το αρχείο config.json ότι στα 1GHz χρονίζεται το σύστημα (componenets συστήματος) και στα 2GHz χρονίζεται το cpu.  
+Αν προσθέσουμε άλλον ένα επεξεργαστή η συχνότητα του θα είναι ίδια δηλαδή 1GHz ή 2GHz αναλόγως την τιμή που έχει το flag --cpu-clock.
+
+Από τα αρχεα stats.txt για cpu clock 1GHz έχουμε:  
+401.bzip:  
+```sim_seconds                                  0.160703                       # Number of seconds simulated (line 12)```  
+```system.cpu.cpi                               1.607035                       # CPI: cycles per instruction (line 16)```
+
+429.mcf:  
+```sim_seconds                                  0.109233                       # Number of seconds simulated (line 12)```  
+```system.cpu.cpi                               1.092334                       # CPI: cycles per instruction (line 16)```
+
+456.hmmer:  
+```sim_seconds                                  0.118547                       # Number of seconds simulated (line 12)```  
+```system.cpu.cpi                               1.185466                       # CPI: cycles per instruction (line 16)```
+
+458.sjeng:  
+```sim_seconds                                  0.705453                       # Number of seconds simulated (line 12)```  
+```system.cpu.cpi                               7.054533                       # CPI: cycles per instruction (line 16)```
+
+470.lbm:  
+```sim_seconds                                  0.262248                       # Number of seconds simulated (line 12)```  
+```system.cpu.cpi                               2.622476                       # CPI: cycles per instruction (line 16)```
+
+
+specbzip: Μείωση χρόνου στο: 0.083847/0.160703 = 52.17%
+spechmmer: Μείωση χρόνου στο: 0.059410/0.118547 = 50.11%
+speclibm: Μείωση χρόνου στο: 0.059410/0.262248 = 22.65%
+specmcf: Μείωση χρόνου στο: 0.055471/0.109233 = 50.78%
+specsjeng: Μείωση χρόνου στο: 0.513819/0.705453 = 72.83%
+
+Αυτά είναι τα ποσοστά επί του χρόνου των 1GHz (από 1GHz σε 2GHz). Παρατηρούμε ότι δεν υπάρχει τέλειο scaling δηλαδή διπλάσιο ρολοι δεν σημαίνει απαραίτητα μισός χρόνος εκτέλεσης. Δεν υπάρχει πάντα τέλειο scaling του cpu frequency με τον χρόνο εκτέλεσης γιατί ο χρόνος εκτέλεσης εξαρτάται και από παράγοντες όπως το width του CPU data bus, της καθυστέρησης της μνήμης και την αρχιτεκτονική της cache. Επίσης παίζει ρόλο και το cpi. Ενώ εάν ο επεξεργαστής χρησιμοποιεί παραλληλία τότε είναι πιο γρήγορος και δεν ισχύει η αναλογία clock-χρόνου.
