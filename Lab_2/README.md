@@ -103,12 +103,16 @@ system.l2.overall_miss_rate::total             0.999927           # miss rate fo
 
 Από τα αρχεία stats.txt και για όλα τα benchmarks στις αντίστοιχες γραμμές κώδικα έχουμε:  
 cpu clock 1GHz:  
-```system.clk_domain.clock              1000       # Clock period in ticks```  
-```system.cpu_clk_domain.clock          1000       # Clock period in ticks```
+<pre>
+system.clk_domain.clock              1000       # Clock period in ticks  
+system.cpu_clk_domain.clock          1000       # Clock period in ticks
+</pre>
 
 cpu clock 2GHz:
-```system.clk_domain.clock              1000       # Clock period in ticks```  
-```system.cpu_clk_domain.clock          500        # Clock period in ticks```
+<pre>
+system.clk_domain.clock              1000       # Clock period in ticks  
+system.cpu_clk_domain.clock          500        # Clock period in ticks
+<pre>
 
 Αυτό που αλλάζει είναι το system.cpu_clk_domain.clock. Ενώ το system.clk_domain.clock παραμένει ίδιο. Αυτό το οποίο χρονίζεται στα 1GHz (system.clk_domain.clock) είναι το clock που έχει σχέση με τα components του συστήματος (η συχνότητα στην οποία λειτουργουν τα components του συστήματος). Αυτό το οποίο χρονίζεται στα 2GHz είναι το cpu (η συχνότητα λειτουργίας των block του cpu). Σε αυτό το συμπέρασμα βοήθησαν και οι πληροφορίες από τα αρχεία se.py, configs/common/Options.py, config.ini.
 
@@ -171,24 +175,34 @@ cpu_clk_domain": {
 
 Από τα αρχεα stats.txt για cpu clock 1GHz έχουμε:  
 401.bzip:  
-```sim_seconds                  0.160703            # Number of seconds simulated (line 12)```  
-```system.cpu.cpi               1.607035            # CPI: cycles per instruction (line 16)```
+<pre>
+sim_seconds                  0.160703            # Number of seconds simulated (line 12)  
+system.cpu.cpi               1.607035            # CPI: cycles per instruction (line 16)
+</pre>
 
 429.mcf:  
-```sim_seconds                  0.109233            # Number of seconds simulated (line 12)```  
-```system.cpu.cpi               1.092334            # CPI: cycles per instruction (line 16)```
+<pre>
+sim_seconds                  0.109233            # Number of seconds simulated (line 12)  
+system.cpu.cpi               1.092334            # CPI: cycles per instruction (line 16)
+</pre>
 
 456.hmmer:  
-```sim_seconds                  0.118547            # Number of seconds simulated (line 12)```  
-```system.cpu.cpi               1.185466            # CPI: cycles per instruction (line 16)```
+<pre>
+sim_seconds                  0.118547            # Number of seconds simulated (line 12)  
+system.cpu.cpi               1.185466            # CPI: cycles per instruction (line 16)
+</pre>
 
 458.sjeng:  
-```sim_seconds                  0.705453            # Number of seconds simulated (line 12)```  
-```system.cpu.cpi               7.054533            # CPI: cycles per instruction (line 16)```
+<pre>
+sim_seconds                  0.705453            # Number of seconds simulated (line 12)  
+system.cpu.cpi               7.054533            # CPI: cycles per instruction (line 16)
+</pre>
 
 470.lbm:  
-```sim_seconds                  0.262248            # Number of seconds simulated (line 12)```  
-```system.cpu.cpi               2.622476            # CPI: cycles per instruction (line 16)```
+<pre>
+sim_seconds                  0.262248            # Number of seconds simulated (line 12)  
+system.cpu.cpi               2.622476            # CPI: cycles per instruction (line 16)
+</pre>
 
 
 401.bzip: Μείωση χρόνου στο: 0.083847/0.160703 = 52.17%  
