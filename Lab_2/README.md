@@ -104,8 +104,8 @@ system.l2.overall_miss_rate::total             0.999927           # miss rate fo
 Από τα αρχεία stats.txt και για όλα τα benchmarks στις αντίστοιχες γραμμές κώδικα έχουμε:  
 cpu clock 1GHz:  
 <pre>
-system.clk_domain.clock              1000       # Clock period in ticks
-system.cpu_clk_domain.clock          1000       # Clock period in ticks
+system.clk_domain.clock	                1000       # Clock period in ticks  
+system.cpu_clk_domain.clock		1000       # Clock period in ticks
 </pre>
 
 cpu clock 2GHz:
