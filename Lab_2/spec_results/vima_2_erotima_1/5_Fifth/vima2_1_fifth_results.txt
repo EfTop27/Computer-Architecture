@@ -1,0 +1,6 @@
+Benchmarks	sim_seconds	system.cpu.cpi	system.cpu.icache.overall_miss_rate::total	system.cpu.dcache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+specbzip_fifth	0.079793	1.595852	0.000055	0.009070	0.250985
+spechmmer_fifth	0.059051	1.181024	0.000095	0.000322	0.232953
+speclibm_fifth	0.128851	2.577017	0.000092	0.030487	0.999899
+specmcf_fifth	0.056909	1.138182	0.007211	0.001109	0.089211
+specsjeng_fifth	0.340134	6.802677	0.000013	0.060918	0.999970

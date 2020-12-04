@@ -1,0 +1,13 @@
+iL1 = 64k
+
+dL1 = 128k
+
+iL1_assoc = 4
+
+dL1_assoc = 4 
+
+L2_size = 256k
+
+L2_assoc = 8
+
+cache_line = 64B
