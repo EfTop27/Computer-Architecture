@@ -283,7 +283,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 	
 Υπάρχουν 3 ειδών misses κατά την εκτέλεση ενός προγράμματος. Αυτά ειναι:
 
--  Compulsory miss: Κατά το πρώτο access σε ένα block, το block αυτό λείπει από την cache μνήμη και πρέπει να έρθει από το ανώτερο επίπεδο.
+-  Compulsory miss: Κατά το πρώτο access σε ένα block, το block αυτό λείπει από την cache μνήμη και πρέπει να έρθει από χαμηλότερο επίπεδο.
 -  Capacity miss: Όταν η cache δεν μπορεί να περιέχει όλα τα blocks που χρειάζονται κατά την εκτέλεση ενός προγράμματος.
 -  Conflict miss: Όταν 2 addresses κάνουν mapping στο ίδιο block.
 
