@@ -339,5 +339,6 @@ Eπομένως καταλήγουμε στο συμπέρασμα πως πρέ
 Έτσι μια συνάρτηση υπολογισμο του κόστους θα μπορούσε να είναι η παρακάτω:  
 
 <pre>
-Cost = a*S1 + b*S2 + (L1i_size/32 - 1) + (L1d_size/128 - 1) + (L1i_assoc/4 - 1) + (L1d_assoc/8 - 1)  + (L2_size/L2_size_optimal - 1) + (L2_assoc/16 - 1) + (cache_line/128 - 1)
+Cost = a*S1 + b*S2 + (L1i_size/32 - 1) + (L1d_size/128 - 1) + (L1i_assoc/4 - 1) + (L1d_assoc/8 - 1)  + 
+(L2_size/L2_size_optimal - 1) + (L2_assoc/16 - 1) + (cache_line/128 - 1)
 </pre>
