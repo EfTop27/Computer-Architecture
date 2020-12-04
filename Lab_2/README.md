@@ -104,7 +104,7 @@ system.l2.overall_miss_rate::total             0.999927           # miss rate fo
 Από τα αρχεία stats.txt και για όλα τα benchmarks στις αντίστοιχες γραμμές κώδικα έχουμε:  
 cpu clock 1GHz:  
 <pre>
-system.clk_domain.clock              1000       # Clock period in ticks  
+system.clk_domain.clock              1000       # Clock period in ticks
 system.cpu_clk_domain.clock          1000       # Clock period in ticks
 </pre>
 
@@ -112,7 +112,7 @@ cpu clock 2GHz:
 <pre>
 system.clk_domain.clock              1000       # Clock period in ticks  
 system.cpu_clk_domain.clock          500        # Clock period in ticks
-<pre>
+</pre>
 
 Αυτό που αλλάζει είναι το system.cpu_clk_domain.clock. Ενώ το system.clk_domain.clock παραμένει ίδιο. Αυτό το οποίο χρονίζεται στα 1GHz (system.clk_domain.clock) είναι το clock που έχει σχέση με τα components του συστήματος (η συχνότητα στην οποία λειτουργουν τα components του συστήματος). Αυτό το οποίο χρονίζεται στα 2GHz είναι το cpu (η συχνότητα λειτουργίας των block του cpu). Σε αυτό το συμπέρασμα βοήθησαν και οι πληροφορίες από τα αρχεία se.py, configs/common/Options.py, config.ini.
 
