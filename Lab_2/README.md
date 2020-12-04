@@ -215,7 +215,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 ### Βήμα 2
 ### Ερώτημα 1
- -  First simoulation: iL1_size = 64kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 1MB, 	L2_assoc = 8,	cache_line = 64
+ -  First simulation: iL1_size = 64kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 1MB, 	L2_assoc = 8,	cache_line = 64
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
 | -- | -- | -- | -- | -- | -- |
@@ -227,7 +227,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 
 
--  Second simoulation: iL1_size = 64kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 256kB, 	L2_assoc = 8,	cache_line = 64
+-  Second simulation: iL1_size = 64kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 256kB, 	L2_assoc = 8,	cache_line = 64
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
 | -- | -- | -- | -- | -- | -- |
@@ -239,7 +239,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 
 
--  Third simoulation: iL1_size = 32kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 8, L2_size = 512kB, 	L2_assoc = 8,	cache_line = 64
+-  Third simulation: iL1_size = 32kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 8, L2_size = 512kB, 	L2_assoc = 8,	cache_line = 64
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
 | -- | -- | -- | -- | -- | -- |
@@ -251,7 +251,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 
 
--  Fourth simoulation: iL1_size = 16kB, 	dL1_size = 64kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 2MB, 	L2_assoc = 16,	cache_line = 64
+-  Fourth simulation: iL1_size = 16kB, 	dL1_size = 64kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 2MB, 	L2_assoc = 16,	cache_line = 64
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
 | -- | -- | -- | -- | -- | -- |
