@@ -392,3 +392,10 @@ Cost = a*S1 + b*S2 + (L1i_size/32 - 1) + (L1d_size/128 - 1) + (L1i_assoc/4 - 1) 
 Γενικά ήταν ένα ενδιαφέρον εργαστήριο. Μάθαμε για τις βασικς παραμέτρους υλοποίησης της αρχιτεκτονικής και πως αυτές επηρεάζουν την απόδοση του συστήματος. Επίσης είδαμε πως οι παράμετροι επηρεάζουν το κόστος και πως το κόστος συνδέεται με την απόδοση του συστήματος. Ακόμα παρατηρήσαμε ότι η απόφαση για το τελικό σχέδιο μιας αρχιτεκτονικής είναι ένας συμβιβασμός μεταξύ απόδοσης και κόστους. Τέλος η εκτέλεση των benchmarks απαιτούσε αρκετό χρόνο καθώς τρέξαμε αρκετές περιπτώσεις ώστε να καταλάβουμε σε τι βαθμό επηρεάζει την απόδοση η κάθε παράμετρος.
 
 ### Βιβλιογραφία
+http://www.gem5.org/
+http://home.ku.edu.tr/comp303/public_html/Lecture15.pdf
+http://ece-research.unm.edu/jimp/611/slides/chap5_2.html
+https://cseweb.ucsd.edu/classes/sp13/cse141-a/Slides/10_Caches_detail.pdf
+https://www.dauniv.ac.in/public/frontassets/coursematerial/computer-architecture/CompArchCh08L16MemorySpeedSizeCost.pdf
+https://www.di.univr.it/documenti/OccorrenzaIns/matdid/matdid566638.pdf
+
