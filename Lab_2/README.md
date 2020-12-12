@@ -215,6 +215,9 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 ### Βήμα 2
 ### Ερώτημα 1
+
+Τα αρχεία των simulation βρίσκονται στον φάκελο Lab_2/spec_results/vima_2_erotima_1 και στους φακέλους 1_First, 2_Second, 3_Third, 4_Fourth, 5_Fifth αντίστοιχα.
+
  -  First simulation: iL1_size = 64kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 1MB, 	L2_assoc = 8,	cache_line = 64
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
