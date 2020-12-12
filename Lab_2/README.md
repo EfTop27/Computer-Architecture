@@ -27,7 +27,7 @@ L2 cache:
 ```[system.l2] (line 1057)```  
 ```size=2097152 (line 1078) (2 MBytes)```  
 ```associativity: assoc=8 (line 1061)```  
-Για την L1 dcache βλέπουμε ότι έχει μέγεθος 2MB και το associativity είναι 8.
+Για την L2 cache βλέπουμε ότι έχει μέγεθος 2MB και το associativity είναι 8.
 
 Cache line:  
 ```[system] (line 11)```  
@@ -218,7 +218,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 Τα αρχεία των simulation βρίσκονται στον φάκελο Lab_2/spec_results/vima_2_erotima_1 και στους φακέλους 1_First, 2_Second, 3_Third, 4_Fourth, 5_Fifth αντίστοιχα.
 
- -  First simulation: iL1_size = 64kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 1MB, 	L2_assoc = 8,	cache_line = 64
+ -  First simulation: iL1_size = 64kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dL1_assoc = 4, L2_size = 1MB, 	L2_assoc = 8,	cache_line = 64
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
 | -- | -- | -- | -- | -- | -- |
@@ -230,7 +230,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 
 
--  Second simulation: iL1_size = 64kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 256kB, 	L2_assoc = 8,	cache_line = 64
+-  Second simulation: iL1_size = 64kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dL1_assoc = 4, L2_size = 256kB, 	L2_assoc = 8,	cache_line = 64
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
 | -- | -- | -- | -- | -- | -- |
@@ -242,7 +242,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 
 
--  Third simulation: iL1_size = 32kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 8, L2_size = 512kB, 	L2_assoc = 8,	cache_line = 64
+-  Third simulation: iL1_size = 32kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dL1_assoc = 8, L2_size = 512kB, 	L2_assoc = 8,	cache_line = 64
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
 | -- | -- | -- | -- | -- | -- |
@@ -254,7 +254,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 
 
--  Fourth simulation: iL1_size = 16kB, 	dL1_size = 64kB, 	iL1_assoc = 4,  	dl1_assoc = 4, L2_size = 2MB, 	L2_assoc = 16,	cache_line = 64
+-  Fourth simulation: iL1_size = 16kB, 	dL1_size = 64kB, 	iL1_assoc = 4,  	dL1_assoc = 4, L2_size = 2MB, 	L2_assoc = 16,	cache_line = 64
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
 | -- | -- | -- | -- | -- | -- |
@@ -267,7 +267,7 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 
 
 
-- Fifth full optimized simulation: iL1_size = 32kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dl1_assoc = 8, L2_size = 4MB, 	L2_assoc = 16,	cache_line = 128
+- Fifth full optimized simulation: iL1_size = 32kB, 	dL1_size = 128kB, 	iL1_assoc = 4,  	dL1_assoc = 8, L2_size = 4MB, 	L2_assoc = 16,	cache_line = 128
 
 | __Benchmarks__| __sim_sec__	| __CPI__ | __L1i_miss_rate__	| __L1d_miss_rate__	| __L2_miss_rate__ |
 | -- | -- | -- | -- | -- | -- |
@@ -339,7 +339,7 @@ Eπομένως καταλήγουμε στο συμπέρασμα πως πρέ
 Η ταχύτητα και το κόστος της μνήμης αυξάνονται όταν η μνήμη βρίσκεται σε υψηλό επίπεδο. Συνεπώς η L1 cache η οποία βρίσκεται πιο κοντά στον επεξεργαστή έχει μεγαλύτερη ταχύτητα και μεγαλύτερο κόστος. Επίσης η L1 cache έχει και μικρότερο μέγεθος. Η L2 cache η οποία βρίσκεται σε χαμηλότερο επίπεδο έχει μικρότερη ταχύτητα και μικρότερο κόστος από την L1. Επίσης η L2 cache έχει μεγαλύτερο μέγεθος από την L1 cache. Ακόμη η L2 cache έχει μεγαλύτερο access time από την L1 cache. Έτσι βλέπουμε ότι το μέγεθος της μνήμης αποτελέι παράγοντα ο οποίος επηρεάζει το κόστος.  
 Στη συνέχεια το associativity της μνήμης είναι άλλος παράγοντας ο οποίος επηρεάζει το κόστος. Ένα N-way associativity χρειάζεται N parallel comparators κάτι το οποίο αυξάνει το κόστος και μειώνει την ταχύτητα. Άρα όσο μεγαλύτερο είναι το associativity τόσο αυξάνεται το κόστος και η πολυπλοκότητα. Αφού η L1 cache είναι σε υψηλότερο level το κόστος είναι μεγαλύτερο σε σχέση με την L2 cache.  
 
-Αυξάνοντας την ταχύτητα της μνήμης(μειώνοντας το latency) αυξάνουμε ουσιαστικά το μέγεθος του bit cell. Για παράδειγμα σε μία DRAM αυξάνοντας το μέγεθος του τρανζίστορ και του πυκνωτή στο bit cell επιτρέπει γρηγορότερο access αλλά μειώνει τον αριθμό των bit cells που μπορούν να χωρέσουν σε ένα ολοκληρωμένο. Έχουμε υψηλή πυκνότητα ολοκλήρωσης. Αντιθέτως αυξανόμενου του μεγέθους της μνήμης έχουμε πιο χαμηλή πυκνότητα ολοκλήρωσης και συνεπώς μειωμένο κόστος per bit.
+Αυξάνοντας την ταχύτητα της μνήμης(μειώνοντας το latency) αυξάνουμε ουσιαστικά το μέγεθος του bit cell. Για παράδειγμα σε μία SRAM αυξάνοντας το μέγεθος του τρανζίστορ και του πυκνωτή στο bit cell επιτρέπει γρηγορότερο access αλλά μειώνει τον αριθμό των bit cells που μπορούν να χωρέσουν σε ένα ολοκληρωμένο. Έχουμε υψηλή πυκνότητα ολοκλήρωσης. Αντιθέτως αυξανόμενου του μεγέθους της μνήμης έχουμε πιο χαμηλή πυκνότητα ολοκλήρωσης και συνεπώς μειωμένο κόστος per bit.
 
 Η L1 cache είναι περιπου 4 φορές πιο γρήγορη απ την L2 cache. Άρα αν S1, S2 είναι η ταχύτητα της L1, L2 αντίστοιχα τότε S1 = 4 * S2. Το κόστος εξαρτάται απ την τεχνολογία κατασκευής η οποία σχετίζεται με τις ταχύτητες S1, S2. Όπως αναφέρθηκε το κόστος εξαρτάται από το associativty ενώ εξαρτάται και από το cache line.  
 Έτσι μια συνάρτηση υπολογισμο του κόστους θα μπορούσε να είναι η παρακάτω:  
