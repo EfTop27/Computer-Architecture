@@ -274,7 +274,8 @@ system.cpu.cpi               2.622476            # CPI: cycles per instruction (
 | __specmcf__ | 0.056909	| 1.138182	| 0.007211	|  0.001109	| 0.089211	|
 | __specsjeng__ | 0.340134 | 6.802677	 |  0.000013 |  0.060918	| 0.999970	| 
 
-Παρακάτω φαίνεται το διάγραμμα για τις συνδυαστικές προσομοιώσεις:  
+Παρακάτω φαίνεται το διάγραμμα για τις συνδυαστικές προσομοιώσεις.  
+Το Simulation Vima 1 αναφέρεται στην προσομοίωση με τις αρχικές παραμέτρους του βήματος 1.  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_2/charts/images/vima_2_erotima_1.png" width="85%" height="85%">
 
 
