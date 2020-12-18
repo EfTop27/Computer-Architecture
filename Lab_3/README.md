@@ -151,9 +151,17 @@ ARM_A9_2GHz:  2.96053 * 40*t = 118.4212*t
 
 Για το βήμα 2 με το αρχείο GEM5ToMcPAT.py και έχοντας ως είσοδο τα αρχεα config.json και stats.txt από τα benchmarks του προηγούμενου εργαστηρίου δημιουργούμε τα xml αρχεα τα οποία αποτελούν είσοδο για το McPAT.  
 Στη συνέχεια τρέχουμε το McPAT με print_level 5 για όλες τις περιπτώσεις των benchmarks του προηγούμενου εργαστηρίου.
+
 ### Ερώτημα 1
 
-Τρέχουμε τοMcPAT με print_level 5 και χρησιμοποιήστε τα αποτελέσματα για το core και για την L2
-(αθροιστικά)
+Χρησιμοποιούμε τα αποτελέσματα για το core και για την L2 αθροιστικά και υπολογίζουμε την κατανάλωση ενέργειας για όλες τις περιπτώσεις.  
+Παρακάτω φαίνονται τα αντίστοιχα γραφήματα:
 
-
+Ενέργεια αθροιστικά για το core και την L2 σχετικά με τις συνδυαστικς προσομοιώσεις:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_simulations.png" width="60%" height="60%">  
+default: iL1_size = 32k, dL1_size = 64k, iL1_assoc = 2, dL1_assoc = 2, L2_size = 2MB, L2_assoc = 8, cache_line_size = 64B  
+fisrt: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 1MB, L2_assoc = 8, cache_line = 64  
+second: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 256kB, L2_assoc = 8, cache_line = 64  
+third: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 512kB, L2_assoc = 8, cache_line = 64  
+fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 2MB, L2_assoc = 16, cache_line = 64  
+fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
