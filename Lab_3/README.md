@@ -156,7 +156,7 @@ ARM_A9_2GHz:  2.96053 * 40*t = 118.4212*t
 
 Χρησιμοποιούμε τα αποτελέσματα για το core και για την L2 αθροιστικά και υπολογίζουμε την κατανάλωση ενέργειας για όλες τις περιπτώσεις.  
 Ο υπολογισμός την ενέργειας έγινε με τον τύπο:  
-energy_sum = (subthreshold_leakage_core + gate_leakage_core + dynamic_core + subthreshold_leakage_l2 + gate_leakage_l2 + dynamic_l2)*runtime  
+energy_sum = (subthreshold_leakage_core + gate_leakage_core + runtime_dynamic_core + subthreshold_leakage_l2 + gate_leakage_l2 + runtime_dynamic_l2)*runtime  
 Το runtime είναι τα simulation seconds που προκύπτουν από το αρχεο stats.txt.  
 Παρακάτω φαίνονται τα αντίστοιχα γραφήματα:
 
@@ -182,3 +182,28 @@ fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size 
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_cache_line_size.png" width="49%" height="49%">
 
 
+Επίσης με χρήση του αρχείου print_energy.py υπολογίσαμε την συνολικ ενέργεια για κάθε benchmark.  
+Εδώ γίνεται χρησιμοποιείται ο τύπος: Energy = (Total Leakage + Runtime Dynamic) * Runtime  
+Το Runtime είναι τα simulation seconds που προκύπτουν από το αρχεο stats.txt.  
+Παρακάτω φαίνονται τα αντίστοιχα γραφήματα:
+
+Ενέργεια σχετικά με τις συνδυαστικς προσομοιώσεις:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_simulations.png" width="60%" height="60%">  
+default: iL1_size = 32k, dL1_size = 64k, iL1_assoc = 2, dL1_assoc = 2, L2_size = 2MB, L2_assoc = 8, cache_line_size = 64B  
+fisrt: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 1MB, L2_assoc = 8, cache_line = 64  
+second: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 256kB, L2_assoc = 8, cache_line = 64  
+third: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 512kB, L2_assoc = 8, cache_line = 64  
+fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 2MB, L2_assoc = 16, cache_line = 64  
+fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
+
+Ενέργεια σχετικά με L1 icache size και L1 icache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_l1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_l1i_assoc.png" width="49%" height="49%">
+
+Ενέργεια σχετικά με L1 dcache size και L1 dcache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_l1d_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_l1d_assoc.png" width="49%" height="49%">
+
+Ενέργεια σχετικά με L2 cache size και L2 cache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_l2_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_l2_assoc.png" width="49%" height="49%">
+
+Ενέργεια σχετικά με cache line size:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_cache_line_size.png" width="49%" height="49%">
