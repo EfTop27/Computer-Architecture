@@ -224,13 +224,13 @@ fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size 
 fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
 
 Peak power σχετικά με L1 icache size και L1 icache associativity:  
-<img src="" width="49%" height="49%"> <img src="" width="49%" height="49%">
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_l1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_l1i_assoc.png" width="49%" height="49%">
 
 Peak power σχετικά με L1 dcache size και L1 dcache associativity:  
-<img src="" width="49%" height="49%"> <img src="" width="49%" height="49%">
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_l1d_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_l1d_assoc.png" width="49%" height="49%">
 
 Peak power σχετικά με L2 cache size και L2 cache associativity:  
-<img src="" width="49%" height="49%"> <img src="" width="49%" height="49%">
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_l2_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_l2_assoc.png" width="49%" height="49%">
 
 Peak power σχετικά με cache line size:  
-<img src="" width="49%" height="49%">
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_cache_line_size.png" width="49%" height="49%">
