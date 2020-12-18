@@ -234,3 +234,32 @@ Peak power σχετικά με L2 cache size και L2 cache associativity:
 
 Peak power σχετικά με cache line size:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_cache_line_size.png" width="49%" height="49%">
+
+
+#### Energy - Delay (EDP)
+Πρωτού προχωρήσουμε σε οποιαδήποτε βελτιστοποίηση energy και area πρώτα θέοτουμε τα time constraints που πρέπει να πληρούνται.
+
+Το Energy-Delay (EDP) υπολογίζεται από τον τύπο EDP = Energy * Runtime. Το Runtime προκύπτει από το αρχεο stats.txt και πιο συγκεκριμένα από το sim_seconds.  
+Παρακάτω φαίνονται τα διαγράμματα του EDP για όλες τις περιπτώσεις.
+
+EDP σχετικά με τις συνδυαστικς προσομοιώσεις:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_simulations.png" width="60%" height="60%">  
+default: iL1_size = 32k, dL1_size = 64k, iL1_assoc = 2, dL1_assoc = 2, L2_size = 2MB, L2_assoc = 8, cache_line_size = 64B  
+fisrt: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 1MB, L2_assoc = 8, cache_line = 64  
+second: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 256kB, L2_assoc = 8, cache_line = 64  
+third: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 512kB, L2_assoc = 8, cache_line = 64  
+fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 2MB, L2_assoc = 16, cache_line = 64  
+fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
+
+EDP σχετικά με L1 icache size και L1 icache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_l1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_l1i_assoc.png" width="49%" height="49%">
+
+EDP σχετικά με L1 dcache size και L1 dcache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_l1d_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_l1d_assoc.png" width="49%" height="49%">
+
+EDP σχετικά με L2 cache size και L2 cache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_l2_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_l2_assoc.png" width="49%" height="49%">
+
+EDP σχετικά με cache line size:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_cache_line_size.png" width="49%" height="49%">
+
