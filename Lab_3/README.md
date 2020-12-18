@@ -168,3 +168,14 @@ fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size 
 
 Ενέργεια αθροιστικά για το core και την L2 σχετικά με L1 icache size και L1 icache associativity:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_l1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_l1i_assoc.png" width="49%" height="49%">
+
+Ενέργεια αθροιστικά για το core και την L2 σχετικά με L1 dcache size και L1 dcache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_l1d_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_l1d_assoc.png" width="49%" height="49%">
+
+Ενέργεια αθροιστικά για το core και την L2 σχετικά με L2 cache size και L2 cache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_l2_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_l2_assoc.png" width="49%" height="49%">
+
+Ενέργεια αθροιστικά για το core και την L2 σχετικά με cache line size:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_cache_line_size.png" width="49%" height="49%">
+
+
