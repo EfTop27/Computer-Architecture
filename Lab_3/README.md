@@ -250,6 +250,24 @@ EDP σχετικά με cache line size:
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_cache_line_size.png" width="49%" height="49%">
 
 
+Για να εξηγήσουμε τα αποτελέσματα για το EDP βλέπουμε και τα διαγράμματα τα οποία προκύπτουν από την συνάρτηση κόστους για όλες τις περιπτώσεις.
+
+Cost σχετικά με τις συνδυαστικς προσομοιώσεις:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/cost_function/cost_simulations.png" width="60%" height="60%">
+
+Cost σχετικά με L1 icache size και L1 icache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/cost_function/cost_L1_icache_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/cost_function/cost_L1_icache_assoc.png" width="49%" height="49%">
+
+Cost σχετικά με L1 dcache size και L1 dcache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/cost_function/cost_L1_dcache_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/cost_function/cost_L1_dcache_assoc.png" width="49%" height="49%">
+
+Cost σχετικά με L2 cache size και L2 cache associativity:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/cost_function/cost_L2_cache_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/cost_function/cost_L2_cache_assoc.png" width="49%" height="49%">
+
+Cost σχετικά με cache line size:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/cost_function/cost_cache_line_size.png" width="49%" height="49%">
+
+
 Υπάρχουν αποκλίσεις από την προσομοίωση σε σχέση με την πραγματικότητα διότι δε μπορούν να μοντελοποιηθούν με απόλυτη ακρίβεια οι activity factors και το switching activity των ψηφιακών κυκλωμάτων. Επίσης το McPAT εισάγει κάποιες αποκλίσεις στον υπολογισμό των ισχύων - μικρότερο σφάλμα στην average ισχύ - διότι υπάρχουν πολύπλοκα SoC(SystemOnChip) με διαφορετικά Ι/Οs, PCIe etc... Eπίσης εχουμε αποκλίσεις στο clock power και στο leakage power λόγω μη εύρεσης βέλτιστων μοντέλων που προσομοιώνουν σωστά τις CPUs.
 
 
