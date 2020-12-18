@@ -152,6 +152,16 @@ ARM_A9_2GHz:  2.96053 * 40*t = 118.4212*t
 Για το βήμα 2 με το αρχείο GEM5ToMcPAT.py και έχοντας ως είσοδο τα αρχεα config.json και stats.txt από τα benchmarks του προηγούμενου εργαστηρίου δημιουργούμε τα xml αρχεα τα οποία αποτελούν είσοδο για το McPAT.  
 Στη συνέχεια τρέχουμε το McPAT με print_level 5 για όλες τις περιπτώσεις των benchmarks του προηγούμενου εργαστηρίου.
 
+Στα παρακάτω ερωτήματα τα στοιχεία για την αρχική προσομοίωση (default) και τις συνδυαστικές προσομοιώσεις(first, second, third, fourth, fifth) φαίνονται παρακάτω:  
+default: iL1_size = 32k, dL1_size = 64k, iL1_assoc = 2, dL1_assoc = 2, L2_size = 2MB, L2_assoc = 8, cache_line_size = 64B  
+fisrt: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 1MB, L2_assoc = 8, cache_line = 64  
+second: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 256kB, L2_assoc = 8, cache_line = 64  
+third: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 512kB, L2_assoc = 8, cache_line = 64  
+fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 2MB, L2_assoc = 16, cache_line = 64  
+fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
+
+Επίσης τρέχουμε τον McPAT και τις προσομοιώσεις του πορηγούμενου εργαστηρίου όπου αλλάζουμε μεμονωμένα κάθε παράμετρο.
+
 ### Ερώτημα 1
 
 Χρησιμοποιούμε τα αποτελέσματα για το core και για την L2 αθροιστικά και υπολογίζουμε την κατανάλωση ενέργειας για όλες τις περιπτώσεις.  
@@ -161,13 +171,7 @@ energy_sum = (subthreshold_leakage_core + gate_leakage_core + runtime_dynamic_co
 Παρακάτω φαίνονται τα αντίστοιχα γραφήματα:
 
 Ενέργεια αθροιστικά για το core και την L2 σχετικά με τις συνδυαστικς προσομοιώσεις:  
-<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_simulations.png" width="60%" height="60%">  
-default: iL1_size = 32k, dL1_size = 64k, iL1_assoc = 2, dL1_assoc = 2, L2_size = 2MB, L2_assoc = 8, cache_line_size = 64B  
-fisrt: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 1MB, L2_assoc = 8, cache_line = 64  
-second: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 256kB, L2_assoc = 8, cache_line = 64  
-third: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 512kB, L2_assoc = 8, cache_line = 64  
-fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 2MB, L2_assoc = 16, cache_line = 64  
-fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_simulations.png" width="60%" height="60%">
 
 Ενέργεια αθροιστικά για το core και την L2 σχετικά με L1 icache size και L1 icache associativity:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_l1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_l1i_assoc.png" width="49%" height="49%">
@@ -182,19 +186,13 @@ fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size 
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_sum/energy_sum_cache_line_size.png" width="49%" height="49%">
 
 
-Επίσης με χρήση του αρχείου print_energy.py υπολογίσαμε την συνολικ ενέργεια για κάθε benchmark.  
+Επίσης με χρήση του αρχείου print_energy.py υπολογίσαμε την συνολική ενέργεια για κάθε benchmark.  
 Εδώ γίνεται χρησιμοποιείται ο τύπος: Energy = (Total Leakage + Runtime Dynamic) * Runtime  
 Το Runtime είναι τα simulation seconds που προκύπτουν από το αρχεο stats.txt.  
 Παρακάτω φαίνονται τα αντίστοιχα γραφήματα:
 
 Ενέργεια σχετικά με τις συνδυαστικς προσομοιώσεις:  
-<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_simulations.png" width="60%" height="60%">  
-default: iL1_size = 32k, dL1_size = 64k, iL1_assoc = 2, dL1_assoc = 2, L2_size = 2MB, L2_assoc = 8, cache_line_size = 64B  
-fisrt: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 1MB, L2_assoc = 8, cache_line = 64  
-second: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 256kB, L2_assoc = 8, cache_line = 64  
-third: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 512kB, L2_assoc = 8, cache_line = 64  
-fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 2MB, L2_assoc = 16, cache_line = 64  
-fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_simulations.png" width="60%" height="60%">
 
 Ενέργεια σχετικά με L1 icache size και L1 icache associativity:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_l1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_l1i_assoc.png" width="49%" height="49%">
@@ -215,13 +213,7 @@ fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size 
 Τα σχετικά γραφήματα φαίνονται παρακάτω:
 
 Peak power σχετικά με τις συνδυαστικς προσομοιώσεις:  
-<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_simulations.png" width="60%" height="60%">  
-default: iL1_size = 32k, dL1_size = 64k, iL1_assoc = 2, dL1_assoc = 2, L2_size = 2MB, L2_assoc = 8, cache_line_size = 64B  
-fisrt: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 1MB, L2_assoc = 8, cache_line = 64  
-second: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 256kB, L2_assoc = 8, cache_line = 64  
-third: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 512kB, L2_assoc = 8, cache_line = 64  
-fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 2MB, L2_assoc = 16, cache_line = 64  
-fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_simulations.png" width="60%" height="60%">
 
 Peak power σχετικά με L1 icache size και L1 icache associativity:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_l1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_l1i_assoc.png" width="49%" height="49%">
@@ -243,13 +235,7 @@ Peak power σχετικά με cache line size:
 Παρακάτω φαίνονται τα διαγράμματα του EDP για όλες τις περιπτώσεις.
 
 EDP σχετικά με τις συνδυαστικς προσομοιώσεις:  
-<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_simulations.png" width="60%" height="60%">  
-default: iL1_size = 32k, dL1_size = 64k, iL1_assoc = 2, dL1_assoc = 2, L2_size = 2MB, L2_assoc = 8, cache_line_size = 64B  
-fisrt: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 1MB, L2_assoc = 8, cache_line = 64  
-second: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 256kB, L2_assoc = 8, cache_line = 64  
-third: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 512kB, L2_assoc = 8, cache_line = 64  
-fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 2MB, L2_assoc = 16, cache_line = 64  
-fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_simulations.png" width="60%" height="60%">
 
 EDP σχετικά με L1 icache size και L1 icache associativity:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_l1i_size.png" width="49%" height="49%"> <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_l1i_assoc.png" width="49%" height="49%">
