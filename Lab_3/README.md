@@ -263,3 +263,7 @@ EDP σχετικά με L2 cache size και L2 cache associativity:
 EDP σχετικά με cache line size:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy_delay_edp/energy_delay_edp_cache_line_size.png" width="49%" height="49%">
 
+
+Υπάρχουν αποκλίσεις από την προσομοίωση σε σχέση με την πραγματικότητα διότι δε μπορούν να μοντελοποιηθούν με απόλυτη ακρίβεια οι activity factors και το switching activity των ψηφιακών κυκλωμάτων. Επίσης το McPAT εισάγει κάποιες αποκλίσεις στον υπολογισμό των ισχύων - μικρότερο σφάλμα στην average ισχύ - διότι υπάρχουν πολύπλοκα SoC(SystemOnChip) με διαφορετικά Ι/Οs, PCIe etc... Eπίσης εχουμε αποκλίσεις στο clock power και στο leakage power λόγω μη εύρεσης βέλτιστων μοντέλων που προσομοιώνουν σωστά τις CPUs.
+
+
