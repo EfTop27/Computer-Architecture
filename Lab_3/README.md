@@ -207,3 +207,30 @@ fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size 
 
 Ενέργεια σχετικά με cache line size:  
 <img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/energy/energy_cache_line_size.png" width="49%" height="49%">
+
+
+### Ερώτημα 2
+
+Στη συνέχεια δείχνουμε την επίδραση κάθε παραμέτρου σε σχέση με το peak power.  
+Τα σχετικά γραφήματα φαίνονται παρακάτω:
+
+Peak power σχετικά με τις συνδυαστικς προσομοιώσεις:  
+<img src="https://github.com/gtsiamit/Computer-Architecture/blob/main/Lab_3/charts/images/peak_power/peak_power_simulations.png" width="60%" height="60%">  
+default: iL1_size = 32k, dL1_size = 64k, iL1_assoc = 2, dL1_assoc = 2, L2_size = 2MB, L2_assoc = 8, cache_line_size = 64B  
+fisrt: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 1MB, L2_assoc = 8, cache_line = 64  
+second: iL1_size = 64kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 256kB, L2_assoc = 8, cache_line = 64  
+third: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 512kB, L2_assoc = 8, cache_line = 64  
+fourth: iL1_size = 16kB, dL1_size = 64kB, iL1_assoc = 4, dL1_assoc = 4, L2_size = 2MB, L2_assoc = 16, cache_line = 64  
+fifth: iL1_size = 32kB, dL1_size = 128kB, iL1_assoc = 4, dL1_assoc = 8, L2_size = 4MB, L2_assoc = 16, cache_line = 128
+
+Peak power σχετικά με L1 icache size και L1 icache associativity:  
+<img src="" width="49%" height="49%"> <img src="" width="49%" height="49%">
+
+Peak power σχετικά με L1 dcache size και L1 dcache associativity:  
+<img src="" width="49%" height="49%"> <img src="" width="49%" height="49%">
+
+Peak power σχετικά με L2 cache size και L2 cache associativity:  
+<img src="" width="49%" height="49%"> <img src="" width="49%" height="49%">
+
+Peak power σχετικά με cache line size:  
+<img src="" width="49%" height="49%">
