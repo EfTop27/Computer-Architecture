@@ -1,0 +1,100 @@
+Reading simulation time from: mcpat/results/vima_2/sindiastika/1_bzip.txt
+Reading simulation time from: gem5_results/sindiastika/1_bzip_stats.txt
+leakage: 1.310350 W, dynamic: 0.428972 W and runtime: 0.083544 sec
+energy is 145.309917 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/1_hmmer.txt
+Reading simulation time from: gem5_results/sindiastika/1_hmmer_stats.txt
+leakage: 1.310350 W, dynamic: 0.509180 W and runtime: 0.059241 sec
+energy is 107.790777 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/1_libm.txt
+Reading simulation time from: gem5_results/sindiastika/1_libm_stats.txt
+leakage: 1.310350 W, dynamic: 0.227103 W and runtime: 0.175258 sec
+energy is 269.450938 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/1_mcf.txt
+Reading simulation time from: gem5_results/sindiastika/1_mcf_stats.txt
+leakage: 1.310350 W, dynamic: 0.454683 W and runtime: 0.057334 sec
+energy is 101.196402 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/1_sjeng.txt
+Reading simulation time from: gem5_results/sindiastika/1_sjeng_stats.txt
+leakage: 1.310350 W, dynamic: 0.162199 W and runtime: 0.513873 sec
+energy is 756.703172 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/2_bzip.txt
+Reading simulation time from: gem5_results/sindiastika/2_bzip_stats.txt
+leakage: 1.308240 W, dynamic: 0.393970 W and runtime: 0.090950 sec
+energy is 154.816000 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/2_hmmer.txt
+Reading simulation time from: gem5_results/sindiastika/2_hmmer_stats.txt
+leakage: 1.308240 W, dynamic: 0.508974 W and runtime: 0.059245 sec
+energy is 107.660843 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/2_libm.txt
+Reading simulation time from: gem5_results/sindiastika/2_libm_stats.txt
+leakage: 1.308240 W, dynamic: 0.222999 W and runtime: 0.176932 sec
+energy is 270.925179 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/2_mcf.txt
+Reading simulation time from: gem5_results/sindiastika/2_mcf_stats.txt
+leakage: 1.308240 W, dynamic: 0.466569 W and runtime: 0.056075 sec
+energy is 99.522415 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/2_sjeng.txt
+Reading simulation time from: gem5_results/sindiastika/2_sjeng_stats.txt
+leakage: 1.308240 W, dynamic: 0.157738 W and runtime: 0.520781 sec
+energy is 763.453489 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/3_bzip.txt
+Reading simulation time from: gem5_results/sindiastika/3_bzip_stats.txt
+leakage: 1.063500 W, dynamic: 0.495576 W and runtime: 0.085883 sec
+energy is 133.898124 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/3_hmmer.txt
+Reading simulation time from: gem5_results/sindiastika/3_hmmer_stats.txt
+leakage: 1.063500 W, dynamic: 0.603717 W and runtime: 0.059228 sec
+energy is 98.745928 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/3_libm.txt
+Reading simulation time from: gem5_results/sindiastika/3_libm_stats.txt
+leakage: 1.063500 W, dynamic: 0.265402 W and runtime: 0.175312 sec
+energy is 232.972467 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/3_mcf.txt
+Reading simulation time from: gem5_results/sindiastika/3_mcf_stats.txt
+leakage: 1.063500 W, dynamic: 0.538310 W and runtime: 0.057453 sec
+energy is 92.028790 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/3_sjeng.txt
+Reading simulation time from: gem5_results/sindiastika/3_sjeng_stats.txt
+leakage: 1.063500 W, dynamic: 0.191372 W and runtime: 0.513984 sec
+energy is 644.984130 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/4_bzip.txt
+Reading simulation time from: gem5_results/sindiastika/4_bzip_stats.txt
+leakage: 0.943772 W, dynamic: 0.327276 W and runtime: 0.083266 sec
+energy is 105.835083 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/4_hmmer.txt
+Reading simulation time from: gem5_results/sindiastika/4_hmmer_stats.txt
+leakage: 0.943772 W, dynamic: 0.379430 W and runtime: 0.059361 sec
+energy is 78.546594 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/4_libm.txt
+Reading simulation time from: gem5_results/sindiastika/4_libm_stats.txt
+leakage: 0.943772 W, dynamic: 0.179758 W and runtime: 0.174773 sec
+energy is 196.362709 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/4_mcf.txt
+Reading simulation time from: gem5_results/sindiastika/4_mcf_stats.txt
+leakage: 0.943772 W, dynamic: 0.334536 W and runtime: 0.068365 sec
+energy is 87.391526 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/4_sjeng.txt
+Reading simulation time from: gem5_results/sindiastika/4_sjeng_stats.txt
+leakage: 0.943772 W, dynamic: 0.138421 W and runtime: 0.513883 sec
+energy is 556.120585 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/5_bzip.txt
+Reading simulation time from: gem5_results/sindiastika/5_bzip_stats.txt
+leakage: 1.495990 W, dynamic: 1.006480 W and runtime: 0.079793 sec
+energy is 199.679589 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/5_hmmer.txt
+Reading simulation time from: gem5_results/sindiastika/5_hmmer_stats.txt
+leakage: 1.495990 W, dynamic: 1.101200 W and runtime: 0.059051 sec
+energy is 153.366667 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/5_libm.txt
+Reading simulation time from: gem5_results/sindiastika/5_libm_stats.txt
+leakage: 1.495990 W, dynamic: 0.638607 W and runtime: 0.128851 sec
+energy is 275.044958 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/5_mcf.txt
+Reading simulation time from: gem5_results/sindiastika/5_mcf_stats.txt
+leakage: 1.495990 W, dynamic: 1.008290 W and runtime: 0.056909 sec
+energy is 142.516071 mJ
+Reading simulation time from: mcpat/results/vima_2/sindiastika/5_sjeng.txt
+Reading simulation time from: gem5_results/sindiastika/5_sjeng_stats.txt
+leakage: 1.495990 W, dynamic: 0.527903 W and runtime: 0.340134 sec
+energy is 688.394822 mJ

@@ -1,0 +1,4 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1dsize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1dsize_128_stats.txt
+leakage: 1.438890 W, dynamic: 0.455917 W and runtime: 0.055457 sec
+energy is 105.080312 mJ

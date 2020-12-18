@@ -1,0 +1,3 @@
+Reading simulation time from: mcpat/results/vima_2/sindiastika/2_bzip.txt
+Reading simulation time from: gem5_results/sindiastika/2_bzip_stats.txt
+Energy - Delay (EDP): 0.014081 

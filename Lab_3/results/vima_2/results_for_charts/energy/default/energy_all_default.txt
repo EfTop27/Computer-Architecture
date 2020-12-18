@@ -1,0 +1,20 @@
+Reading simulation time from: mcpat/results/vima_2/default/default_bzip.txt
+Reading simulation time from: gem5_results/default/default_bzip_stats.txt
+leakage: 1.153270 W, dynamic: 0.328039 W and runtime: 0.083847 sec
+energy is 124.203316 mJ
+Reading simulation time from: mcpat/results/vima_2/default/default_hmmer.txt
+Reading simulation time from: gem5_results/default/default_hmmer_stats.txt
+leakage: 1.153270 W, dynamic: 0.383936 W and runtime: 0.059410 sec
+energy is 91.325408 mJ
+Reading simulation time from: mcpat/results/vima_2/default/default_libm.txt
+Reading simulation time from: gem5_results/default/default_libm_stats.txt
+leakage: 1.153270 W, dynamic: 0.178475 W and runtime: 0.174779 sec
+energy is 232.761059 mJ
+Reading simulation time from: mcpat/results/vima_2/default/default_mcf.txt
+Reading simulation time from: gem5_results/default/default_mcf_stats.txt
+leakage: 1.153270 W, dynamic: 0.360281 W and runtime: 0.055471 sec
+energy is 83.958188 mJ
+Reading simulation time from: mcpat/results/vima_2/default/default_sjeng.txt
+Reading simulation time from: gem5_results/default/default_sjeng_stats.txt
+leakage: 1.153270 W, dynamic: 0.129603 W and runtime: 0.513819 sec
+energy is 659.164522 mJ

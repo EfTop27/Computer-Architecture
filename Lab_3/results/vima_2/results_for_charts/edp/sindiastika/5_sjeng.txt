@@ -1,0 +1,3 @@
+Reading simulation time from: mcpat/results/vima_2/sindiastika/5_sjeng.txt
+Reading simulation time from: gem5_results/sindiastika/5_sjeng_stats.txt
+Energy - Delay (EDP): 0.234146 

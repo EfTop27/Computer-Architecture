@@ -1,0 +1,4 @@
+Reading simulation time from: mcpat/results/vima_2/sindiastika/5_bzip.txt
+Reading simulation time from: gem5_results/sindiastika/5_bzip_stats.txt
+leakage: 1.495990 W, dynamic: 1.006480 W and runtime: 0.079793 sec
+energy is 199.679589 mJ

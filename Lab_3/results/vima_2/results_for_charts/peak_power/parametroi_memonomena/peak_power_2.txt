@@ -1,0 +1,210 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_cl_32.txt
+Peak Power: 2.133110 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_cl_32_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_cl_32.txt
+Peak Power: 2.225930 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_cl_32_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_cl_32.txt
+Peak Power: 2.133110 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_cl_32_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_cl_32.txt
+Peak Power: 2.133110 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_cl_32_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_cl_32.txt
+Peak Power: 2.133110 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_cl_32_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_cl_128.txt
+Peak Power: 9.228860 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_cl_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_cl_128.txt
+Peak Power: 9.228860 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_cl_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_cl_128.txt
+Peak Power: 9.228860 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_cl_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_cl_128.txt
+Peak Power: 9.228860 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_cl_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_cl_128.txt
+Peak Power: 9.228860 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_cl_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1dassoc_4.txt
+Peak Power: 3.598030 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1dassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1dassoc_4.txt
+Peak Power: 3.598030 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1dassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1dassoc_4.txt
+Peak Power: 3.598030 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1dassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1dassoc_4.txt
+Peak Power: 3.598030 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1dassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1dassoc_4.txt
+Peak Power: 3.598030 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1dassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1dassoc_8.txt
+Peak Power: 3.841940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1dassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1dassoc_8.txt
+Peak Power: 3.841940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1dassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1dassoc_8.txt
+Peak Power: 3.841940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1dassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1dassoc_8.txt
+Peak Power: 3.841940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1dassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1dassoc_8.txt
+Peak Power: 3.841940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1dassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1dsize_128.txt
+Peak Power: 4.362660 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1dsize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1dsize_128.txt
+Peak Power: 4.362660 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1dsize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1dsize_128.txt
+Peak Power: 4.362660 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1dsize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1dsize_128.txt
+Peak Power: 4.362660 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1dsize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1dsize_128.txt
+Peak Power: 4.362660 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1dsize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1iassoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1iassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1iassoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1iassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1iassoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1iassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1iassoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1iassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1iassoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1iassoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1iassoc_8.txt
+Peak Power: 4.626570 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1iassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1iassoc_8.txt
+Peak Power: 4.626570 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1iassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1iassoc_8.txt
+Peak Power: 4.626570 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1iassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1iassoc_8.txt
+Peak Power: 4.626570 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1iassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1iassoc_8.txt
+Peak Power: 4.626570 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1iassoc_8_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1isize_64.txt
+Peak Power: 4.865000 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1isize_64_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1isize_64.txt
+Peak Power: 4.865000 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1isize_64_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1isize_64.txt
+Peak Power: 4.865000 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1isize_64_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1isize_64.txt
+Peak Power: 4.865000 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1isize_64_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1isize_64.txt
+Peak Power: 4.865000 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1isize_64_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1isize_128.txt
+Peak Power: 5.404940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1isize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1isize_128.txt
+Peak Power: 5.404940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1isize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1isize_128.txt
+Peak Power: 5.404940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1isize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1isize_128.txt
+Peak Power: 5.404940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1isize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1isize_128.txt
+Peak Power: 5.404940 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1isize_128_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2assoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2assoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2assoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2assoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2assoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2assoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2assoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2assoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2assoc_4.txt
+Peak Power: 4.271100 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2assoc_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2assoc_16.txt
+Peak Power: 3.866910 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2assoc_16_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2assoc_16.txt
+Peak Power: 3.866910 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2assoc_16_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2assoc_16.txt
+Peak Power: 3.866910 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2assoc_16_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2assoc_16.txt
+Peak Power: 3.866910 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2assoc_16_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2assoc_16.txt
+Peak Power: 3.866910 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2assoc_16_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2size_1.txt
+Peak Power: 3.759560 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2size_1_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2size_1.txt
+Peak Power: 3.759560 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2size_1_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2size_1.txt
+Peak Power: 3.759560 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2size_1_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2size_1.txt
+Peak Power: 3.759560 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2size_1_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2size_1.txt
+Peak Power: 3.759560 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2size_1_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2size_4.txt
+Peak Power: 3.990780 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2size_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2size_4.txt
+Peak Power: 3.990780 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2size_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2size_4.txt
+Peak Power: 3.990780 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2size_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2size_4.txt
+Peak Power: 3.990780 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2size_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2size_4.txt
+Peak Power: 3.990780 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2size_4_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2size_512.txt
+Peak Power: 3.691060 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2size_512_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2size_512.txt
+Peak Power: 3.691060 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2size_512_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2size_512.txt
+Peak Power: 3.691060 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2size_512_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2size_512.txt
+Peak Power: 3.691060 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2size_512_stats.txt
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2size_512.txt
+Peak Power: 3.691060 W,
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2size_512_stats.txt

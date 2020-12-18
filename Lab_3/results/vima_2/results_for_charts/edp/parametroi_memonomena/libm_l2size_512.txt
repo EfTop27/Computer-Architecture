@@ -1,0 +1,3 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2size_512.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2size_512_stats.txt
+Energy - Delay (EDP): 0.040513 

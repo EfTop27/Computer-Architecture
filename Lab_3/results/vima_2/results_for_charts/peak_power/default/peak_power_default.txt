@@ -1,0 +1,15 @@
+Reading simulation time from: mcpat/results/vima_2/default/default_bzip.txt
+Peak Power: 3.865670 W,
+Reading simulation time from: gem5_results/default/default_bzip_stats.txt
+Reading simulation time from: mcpat/results/vima_2/default/default_hmmer.txt
+Peak Power: 3.865670 W,
+Reading simulation time from: gem5_results/default/default_hmmer_stats.txt
+Reading simulation time from: mcpat/results/vima_2/default/default_libm.txt
+Peak Power: 3.865670 W,
+Reading simulation time from: gem5_results/default/default_libm_stats.txt
+Reading simulation time from: mcpat/results/vima_2/default/default_mcf.txt
+Peak Power: 3.865670 W,
+Reading simulation time from: gem5_results/default/default_mcf_stats.txt
+Reading simulation time from: mcpat/results/vima_2/default/default_sjeng.txt
+Peak Power: 3.865670 W,
+Reading simulation time from: gem5_results/default/default_sjeng_stats.txt

@@ -1,0 +1,4 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1iassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1iassoc_8_stats.txt
+leakage: 1.276720 W, dynamic: 0.383959 W and runtime: 0.059400 sec
+energy is 98.644333 mJ

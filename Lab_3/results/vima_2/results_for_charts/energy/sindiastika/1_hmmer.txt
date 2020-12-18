@@ -1,0 +1,4 @@
+Reading simulation time from: mcpat/results/vima_2/sindiastika/1_hmmer.txt
+Reading simulation time from: gem5_results/sindiastika/1_hmmer_stats.txt
+leakage: 1.310350 W, dynamic: 0.509180 W and runtime: 0.059241 sec
+energy is 107.790777 mJ

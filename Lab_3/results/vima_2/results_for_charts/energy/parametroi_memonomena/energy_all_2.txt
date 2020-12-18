@@ -1,0 +1,280 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_cl_32.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_cl_32_stats.txt
+leakage: 0.842702 W, dynamic: 0.151291 W and runtime: 0.097580 sec
+energy is 96.993837 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_cl_32.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_cl_32_stats.txt
+leakage: 0.845989 W, dynamic: 0.212012 W and runtime: 0.059838 sec
+energy is 63.308664 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_cl_32.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_cl_32_stats.txt
+leakage: 0.842702 W, dynamic: 0.074172 W and runtime: 0.280510 sec
+energy is 257.192298 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_cl_32.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_cl_32_stats.txt
+leakage: 0.842702 W, dynamic: 0.193211 W and runtime: 0.062513 sec
+energy is 64.758029 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_cl_32.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_cl_32_stats.txt
+leakage: 0.842702 W, dynamic: 0.055697 W and runtime: 0.882748 sec
+energy is 793.059920 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_cl_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_cl_128_stats.txt
+leakage: 1.253290 W, dynamic: 0.584768 W and runtime: 0.083076 sec
+energy is 152.698506 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_cl_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_cl_128_stats.txt
+leakage: 1.253290 W, dynamic: 0.613001 W and runtime: 0.059269 sec
+energy is 110.613201 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_cl_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_cl_128_stats.txt
+leakage: 1.253290 W, dynamic: 0.376517 W and runtime: 0.129079 sec
+energy is 210.373858 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_cl_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_cl_128_stats.txt
+leakage: 1.253290 W, dynamic: 0.575221 W and runtime: 0.054299 sec
+energy is 99.286319 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_cl_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_cl_128_stats.txt
+leakage: 1.253290 W, dynamic: 0.308423 W and runtime: 0.340295 sec
+energy is 531.443125 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1dassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1dassoc_4_stats.txt
+leakage: 0.878176 W, dynamic: 0.327097 W and runtime: 0.083410 sec
+energy is 100.531821 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1dassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1dassoc_4_stats.txt
+leakage: 0.878176 W, dynamic: 0.379420 W and runtime: 0.059354 sec
+energy is 74.643353 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1dassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1dassoc_4_stats.txt
+leakage: 0.878176 W, dynamic: 0.179673 W and runtime: 0.174779 sec
+energy is 184.889790 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1dassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1dassoc_4_stats.txt
+leakage: 0.878176 W, dynamic: 0.366634 W and runtime: 0.055471 sec
+energy is 69.050856 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1dassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1dassoc_4_stats.txt
+leakage: 0.878176 W, dynamic: 0.138340 W and runtime: 0.513827 sec
+energy is 522.313367 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1dassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1dassoc_8_stats.txt
+leakage: 0.898840 W, dynamic: 0.408206 W and runtime: 0.083103 sec
+energy is 108.619444 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1dassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1dassoc_8_stats.txt
+leakage: 0.898840 W, dynamic: 0.461066 W and runtime: 0.059351 sec
+energy is 80.711781 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1dassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1dassoc_8_stats.txt
+leakage: 0.898840 W, dynamic: 0.224789 W and runtime: 0.174779 sec
+energy is 196.386753 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1dassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1dassoc_8_stats.txt
+leakage: 0.898840 W, dynamic: 0.478855 W and runtime: 0.055470 sec
+energy is 76.420742 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1dassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1dassoc_8_stats.txt
+leakage: 0.898840 W, dynamic: 0.199207 W and runtime: 0.513848 sec
+energy is 564.229255 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1dsize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1dsize_128_stats.txt
+leakage: 1.438890 W, dynamic: 0.422012 W and runtime: 0.082422 sec
+energy is 153.379265 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1dsize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1dsize_128_stats.txt
+leakage: 1.438890 W, dynamic: 0.489965 W and runtime: 0.059267 sec
+energy is 114.317449 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1dsize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1dsize_128_stats.txt
+leakage: 1.438890 W, dynamic: 0.222436 W and runtime: 0.174779 sec
+energy is 290.364897 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1dsize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1dsize_128_stats.txt
+leakage: 1.438890 W, dynamic: 0.455917 W and runtime: 0.055457 sec
+energy is 105.080312 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1dsize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1dsize_128_stats.txt
+leakage: 1.438890 W, dynamic: 0.160515 W and runtime: 0.513728 sec
+energy is 821.659132 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1iassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1iassoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.328062 W and runtime: 0.083841 sec
+energy is 130.840755 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1iassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1iassoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.383961 W and runtime: 0.059400 sec
+energy is 96.018971 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1iassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1iassoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.178494 W and runtime: 0.174758 sec
+energy is 246.585985 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1iassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1iassoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.360269 W and runtime: 0.055471 sec
+energy is 88.353599 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1iassoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1iassoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.129598 W and runtime: 0.513845 sec
+energy is 699.917524 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1iassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1iassoc_8_stats.txt
+leakage: 1.276720 W, dynamic: 0.328035 W and runtime: 0.083849 sec
+energy is 134.557102 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1iassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1iassoc_8_stats.txt
+leakage: 1.276720 W, dynamic: 0.383959 W and runtime: 0.059400 sec
+energy is 98.644333 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1iassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1iassoc_8_stats.txt
+leakage: 1.276720 W, dynamic: 0.178494 W and runtime: 0.174758 sec
+energy is 254.310288 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1iassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1iassoc_8_stats.txt
+leakage: 1.276720 W, dynamic: 0.360279 W and runtime: 0.055469 sec
+energy is 90.802698 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1iassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1iassoc_8_stats.txt
+leakage: 1.276720 W, dynamic: 0.129607 W and runtime: 0.513803 sec
+energy is 722.575032 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1isize_64.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1isize_64_stats.txt
+leakage: 1.558160 W, dynamic: 0.328100 W and runtime: 0.083831 sec
+energy is 158.127062 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1isize_64.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1isize_64_stats.txt
+leakage: 1.558160 W, dynamic: 0.383956 W and runtime: 0.059400 sec
+energy is 115.361690 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1isize_64.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1isize_64_stats.txt
+leakage: 1.558160 W, dynamic: 0.178494 W and runtime: 0.174758 sec
+energy is 303.494180 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1isize_64.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1isize_64_stats.txt
+leakage: 1.558160 W, dynamic: 0.360277 W and runtime: 0.055469 sec
+energy is 106.413782 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1isize_64.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1isize_64_stats.txt
+leakage: 1.558160 W, dynamic: 0.129601 W and runtime: 0.513829 sec
+energy is 867.220547 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1isize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1isize_128_stats.txt
+leakage: 1.843780 W, dynamic: 0.328109 W and runtime: 0.083829 sec
+energy is 182.067283 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l1isize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l1isize_128_stats.txt
+leakage: 1.843780 W, dynamic: 0.383944 W and runtime: 0.059400 sec
+energy is 132.326806 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l1isize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l1isize_128_stats.txt
+leakage: 1.843780 W, dynamic: 0.178494 W and runtime: 0.174758 sec
+energy is 353.408560 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l1isize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l1isize_128_stats.txt
+leakage: 1.843780 W, dynamic: 0.359633 W and runtime: 0.055472 sec
+energy is 122.227726 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1isize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1isize_128_stats.txt
+leakage: 1.843780 W, dynamic: 0.129606 W and runtime: 0.513803 sec
+energy is 1013.931647 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2assoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2assoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.328062 W and runtime: 0.083841 sec
+energy is 130.840755 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2assoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2assoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.383961 W and runtime: 0.059400 sec
+energy is 96.018971 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2assoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2assoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.178494 W and runtime: 0.174758 sec
+energy is 246.585985 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2assoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2assoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.360269 W and runtime: 0.055471 sec
+energy is 88.353599 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2assoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2assoc_4_stats.txt
+leakage: 1.232520 W, dynamic: 0.129598 W and runtime: 0.513845 sec
+energy is 699.917524 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2assoc_16.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2assoc_16_stats.txt
+leakage: 1.153520 W, dynamic: 0.328054 W and runtime: 0.083858 sec
+energy is 124.241832 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2assoc_16.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2assoc_16_stats.txt
+leakage: 1.153520 W, dynamic: 0.383947 W and runtime: 0.059410 sec
+energy is 91.340914 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2assoc_16.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2assoc_16_stats.txt
+leakage: 1.153520 W, dynamic: 0.178554 W and runtime: 0.174779 sec
+energy is 232.818562 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2assoc_16.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2assoc_16_stats.txt
+leakage: 1.153520 W, dynamic: 0.360283 W and runtime: 0.055472 sec
+energy is 83.973680 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2assoc_16.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2assoc_16_stats.txt
+leakage: 1.153520 W, dynamic: 0.129694 W and runtime: 0.513836 sec
+energy is 659.361549 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2size_1.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2size_1_stats.txt
+leakage: 1.151160 W, dynamic: 0.318943 W and runtime: 0.085357 sec
+energy is 125.483582 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2size_1.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2size_1_stats.txt
+leakage: 1.151160 W, dynamic: 0.383328 W and runtime: 0.059410 sec
+energy is 91.163932 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2size_1.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2size_1_stats.txt
+leakage: 1.151160 W, dynamic: 0.175658 W and runtime: 0.175257 sec
+energy is 232.534142 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2size_1.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2size_1_stats.txt
+leakage: 1.151160 W, dynamic: 0.358826 W and runtime: 0.055655 sec
+energy is 84.038271 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2size_1.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2size_1_stats.txt
+leakage: 1.151160 W, dynamic: 0.126706 W and runtime: 0.513882 sec
+energy is 656.672336 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2size_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2size_4_stats.txt
+leakage: 1.158180 W, dynamic: 0.337997 W and runtime: 0.082466 sec
+energy is 123.383732 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2size_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2size_4_stats.txt
+leakage: 1.158180 W, dynamic: 0.384637 W and runtime: 0.059410 sec
+energy is 91.658758 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2size_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2size_4_stats.txt
+leakage: 1.158180 W, dynamic: 0.181060 W and runtime: 0.174931 sec
+energy is 234.274592 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2size_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2size_4_stats.txt
+leakage: 1.158180 W, dynamic: 0.360735 W and runtime: 0.055456 sec
+energy is 84.232950 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2size_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2size_4_stats.txt
+leakage: 1.158180 W, dynamic: 0.132947 W and runtime: 0.513518 sec
+energy is 663.016955 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l2size_512.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l2size_512_stats.txt
+leakage: 1.149660 W, dynamic: 0.308073 W and runtime: 0.087773 sec
+energy is 127.949599 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2size_512.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2size_512_stats.txt
+leakage: 1.149660 W, dynamic: 0.382936 W and runtime: 0.059410 sec
+energy is 91.051528 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/libm_l2size_512.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/libm_l2size_512_stats.txt
+leakage: 1.149660 W, dynamic: 0.174424 W and runtime: 0.174919 sec
+energy is 231.607449 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/mcf_l2size_512.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/mcf_l2size_512_stats.txt
+leakage: 1.149660 W, dynamic: 0.326529 W and runtime: 0.062737 sec
+energy is 92.611669 mJ
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2size_512.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2size_512_stats.txt
+leakage: 1.149660 W, dynamic: 0.124835 W and runtime: 0.514000 sec
+energy is 655.090430 mJ

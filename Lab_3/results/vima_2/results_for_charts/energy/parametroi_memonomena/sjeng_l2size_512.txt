@@ -1,0 +1,4 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l2size_512.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l2size_512_stats.txt
+leakage: 1.149660 W, dynamic: 0.124835 W and runtime: 0.514000 sec
+energy is 655.090430 mJ

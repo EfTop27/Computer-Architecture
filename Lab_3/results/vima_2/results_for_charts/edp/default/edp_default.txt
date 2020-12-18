@@ -1,0 +1,15 @@
+Reading simulation time from: mcpat/results/vima_2/default/default_bzip.txt
+Reading simulation time from: gem5_results/default/default_bzip_stats.txt
+Energy - Delay (EDP): 0.010414 
+Reading simulation time from: mcpat/results/vima_2/default/default_hmmer.txt
+Reading simulation time from: gem5_results/default/default_hmmer_stats.txt
+Energy - Delay (EDP): 0.005426 
+Reading simulation time from: mcpat/results/vima_2/default/default_libm.txt
+Reading simulation time from: gem5_results/default/default_libm_stats.txt
+Energy - Delay (EDP): 0.040682 
+Reading simulation time from: mcpat/results/vima_2/default/default_mcf.txt
+Reading simulation time from: gem5_results/default/default_mcf_stats.txt
+Energy - Delay (EDP): 0.004657 
+Reading simulation time from: mcpat/results/vima_2/default/default_sjeng.txt
+Reading simulation time from: gem5_results/default/default_sjeng_stats.txt
+Energy - Delay (EDP): 0.338691 

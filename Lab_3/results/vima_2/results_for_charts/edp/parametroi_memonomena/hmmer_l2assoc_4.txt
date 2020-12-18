@@ -1,0 +1,3 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/hmmer_l2assoc_4.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/hmmer_l2assoc_4_stats.txt
+Energy - Delay (EDP): 0.005704 

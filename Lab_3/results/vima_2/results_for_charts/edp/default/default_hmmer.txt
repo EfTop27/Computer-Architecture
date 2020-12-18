@@ -1,0 +1,3 @@
+Reading simulation time from: mcpat/results/vima_2/default/default_hmmer.txt
+Reading simulation time from: gem5_results/default/default_hmmer_stats.txt
+Energy - Delay (EDP): 0.005426 

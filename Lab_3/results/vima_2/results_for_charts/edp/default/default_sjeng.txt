@@ -1,0 +1,3 @@
+Reading simulation time from: mcpat/results/vima_2/default/default_sjeng.txt
+Reading simulation time from: gem5_results/default/default_sjeng_stats.txt
+Energy - Delay (EDP): 0.338691 

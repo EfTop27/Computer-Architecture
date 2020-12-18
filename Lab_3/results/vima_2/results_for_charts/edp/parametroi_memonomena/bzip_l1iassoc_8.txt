@@ -1,0 +1,3 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/bzip_l1iassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/bzip_l1iassoc_8_stats.txt
+Energy - Delay (EDP): 0.011282 

@@ -1,0 +1,3 @@
+Reading simulation time from: mcpat/results/vima_2/default/default_mcf.txt
+Reading simulation time from: gem5_results/default/default_mcf_stats.txt
+Energy - Delay (EDP): 0.004657 

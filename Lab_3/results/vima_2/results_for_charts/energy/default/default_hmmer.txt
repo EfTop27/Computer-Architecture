@@ -1,0 +1,4 @@
+Reading simulation time from: mcpat/results/vima_2/default/default_hmmer.txt
+Reading simulation time from: gem5_results/default/default_hmmer_stats.txt
+leakage: 1.153270 W, dynamic: 0.383936 W and runtime: 0.059410 sec
+energy is 91.325408 mJ

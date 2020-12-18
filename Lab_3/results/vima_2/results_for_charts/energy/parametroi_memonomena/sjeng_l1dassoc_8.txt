@@ -1,0 +1,4 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1dassoc_8.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1dassoc_8_stats.txt
+leakage: 0.898840 W, dynamic: 0.199207 W and runtime: 0.513848 sec
+energy is 564.229255 mJ

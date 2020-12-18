@@ -1,0 +1,3 @@
+Reading simulation time from: mcpat/results/vima_2/parametroi_memonomena/sjeng_l1isize_128.txt
+Reading simulation time from: gem5_results/parametroi_memonomena/sjeng_l1isize_128_stats.txt
+Energy - Delay (EDP): 0.520961 
